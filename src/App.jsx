@@ -9,16 +9,17 @@ function App() {
 
       <Navbar />
 
-      
+
       <div className="p-5">
         {/* clg name */}
-        <div className="flex gap-3 mt-5  md:mt-10 items-center">
-          {/* <img src={collegelogo} className='h-16 w-16 object-cover rounded-full' alt="image" /> */}
-          <div className="second-color font-semibold text-xl">
-            <h1>Government College Of Engineering Erode</h1>
-            <p>Department of CSE</p>
-          </div>
+       
+        <div className="second-color font-bold text-center md:flex flex-col items-center justify-center">
+          <h1 className='text-lg md:text-xl'>GOVERNMENT COLLEGE OF ENGINEERING ERODE</h1>
+          <h1 className='md:text-lg mt-1'>DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING</h1>
+          <h1 className='md:text-lg font-semibold mt-1'>PRODULY PRESENTS </h1>
+          <h1 className='text-3xl md:text-5xl font-bold mt-5 font-serif'>SYNTAX</h1>
         </div>
+        
 
 
       </div>
