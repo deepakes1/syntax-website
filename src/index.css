@@ -1,16 +1,25 @@
 @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
+@tailwind components;
+@tailwind utilities;
 
 
-body { 
-   background-color:  #f8f5ff;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #E6E6FA;
+;
+
+}
+
+
+.primary-text {
+  color: #E6E6FA;
+}
+.second-color-bg {
+  background-color: #40377D;
 }
 
 .second-color {
-  background-color:  #fff7f3; 
-}
-
-.lef-colr {
-  background-color: #f6fef9;
+  color: #40377D;
 }
