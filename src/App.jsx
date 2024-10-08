@@ -21,7 +21,7 @@ function App() {
           <h1 className='text-5xl font-bold mt-5 font-serif'>SYNTAX</h1>
         </div> 
         
-        <div className="">
+        <div className="mt-10">
           <Timer/>
         </div>
 
