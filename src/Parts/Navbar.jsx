@@ -1,5 +1,5 @@
 
-import Logo from '../assets/logomob.jpg'
+import Logo from '../assets/logo.jpg'
 import Drawer from '../components/Drawer';
 import React from 'react';
 import { useState } from 'react';
@@ -12,8 +12,8 @@ function Navbar() {
     <div className=' bg-navbar text-white p-2 md:p-6'>
       <div className="md:flex justify-between items-center text-lg font-semibold">
         <div className="flex items-center  justify-between">
-          <img src={Logo}  className='w-[90vw] h-10 object-fit' alt="" />
-          <div className="md:hidden w-[10vw] h-[30px]" onClick={() => setShowNav(!showNav)}>
+          <img src={Logo}  className='h-10 w-10 object-cover rounded-full' alt="" />
+          <div className="md:hidden w-[10vw] " onClick={() => setShowNav(!showNav)}>
             <Drawer/>
           </div>
         </div>
