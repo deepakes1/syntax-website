@@ -9,7 +9,7 @@ function Navbar() {
   const [showNav, setShowNav] = useState(false);
 
   return (
-    <div className=' bg-navbar text-white p-2 md:p-6'>
+    <div className=' bg-navbar w-[90vw] mt-4 mx-auto text-white p-2 md:p-6'>
       <div className="md:flex justify-between items-center text-lg font-semibold">
         <div className="flex items-center  justify-between">
           <img src={Logo}  className='h-10 w-10 object-cover rounded-full' alt="" />
