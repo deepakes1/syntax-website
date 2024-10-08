@@ -7,11 +7,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html, body {
+  height: 100%; /* Ensure html and body take full height */
+}
+
+body {
   background-image: url("./assets/bg.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
-
+  background-size: cover; /* Make sure the image covers the entire area */
+  background-position: center; /* Center the image */
 }
 
 
