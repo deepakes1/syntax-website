@@ -21,13 +21,13 @@ const Drawer = () => {
                 open={isOpen}
                 onClose={toggleDrawer}
                 direction='right'
-                className='bg-red-500'
+                style={{ backgroundColor: "#ffffffd2" }}
             >
-                <div className="mt-4 md:mt-0 text-center   second-color font-bold md:font-semibold md:text-md gap-3">
-                    <div className='mb-1'><h1 className='bg-[#40377D] mt-3 px-3 md:py-1 rounded-3xl text-[#E6E6FA]'>Home</h1></div>
-                    <div className='mb-1'><h1 className='bg-[#40377D] mt-3 px-5 md:py-1 rounded-3xl text-[#E6E6FA]'>Event</h1></div>
-                    <div className='mb-1'><h1 className='bg-[#40377D] mt-3 px-5 md:py-1 rounded-3xl text-[#E6E6FA]'>About</h1></div>
-                    <div className='mb-1'><h1 className='bg-[#40377D] mt-3 px-5 md:py-1 rounded-3xl text-[#E6E6FA]'>Contact</h1></div>
+                <div className="mt-4 md:mt-0 text-center flex flex-col items-center justify-center h-[90vh]  second-color font-bold md:font-semibold md:text-md gap-3">
+                    <div className='mb-1'><h1 className='bg-[#40377D] mt-3 px-3 md:py-1 rounded-3xl mx-auto text-[#E6E6FA]'>Home</h1></div>
+                    <div className='mb-1'><h1 className='bg-[#40377D] mt-3 px-5 md:py-1 rounded-3xl  mx-auto text-[#E6E6FA]'>Event</h1></div>
+                    <div className='mb-1'><h1 className='bg-[#40377D] mt-3 px-5 md:py-1 rounded-3xl  mx-auto text-[#E6E6FA]'>About</h1></div>
+                    <div className='mb-1'><h1 className='bg-[#40377D] mt-3 px-5 md:py-1 rounded-3xl  mx-auto text-[#E6E6FA]'>Contact</h1></div>
                 </div>
             </DrawerComponent>
         </>

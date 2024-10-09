@@ -14,7 +14,7 @@ html, body {
 }
 
 body {
-  background-image: url("./assets/bg2.png");
+  background-image: url("./assets/bg2.gif");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover; /* Make sure the image covers the entire area */
@@ -23,8 +23,8 @@ body {
 
 
 .primary-text {
-  color: #E6E6FA;
-}
+  color: #ffffffd2;
+};
 .second-color-bg {
   background-color: #40377D;
 }
