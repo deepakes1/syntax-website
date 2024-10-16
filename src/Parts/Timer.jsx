@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 function Timer() {
   const [countdown, setCountdown] = useState({
@@ -32,10 +32,7 @@ function Timer() {
 
   return (
     <div>
-      {/* <h1>Countdown to March 1, 2024:</h1>
-      <p>
-        {countdown.days}d {countdown.hours}h {countdown.minutes}m {countdown.seconds}s
-      </p> */}
+      
       {countdown.days < 0 && countdown.hours < 0 && countdown.minutes < 0 && countdown.seconds < 0 ? (
         <p>EXPIRED</p>
       ) : null}
@@ -43,7 +40,7 @@ function Timer() {
       <div className="flex flex-col items-center text-[#40377D] font-bold text-lg">
         <div className="flex">
         
-        <div className=" border-black text-center w-[100px] p-5 border-b-2 border-r-2">
+        <div  className="  border-black text-center w-[100px] p-5 border-b-2 border-r-2">
           <h1 className='text-4xl'>{countdown.days}</h1>
           <p>Days</p>
         </div>
@@ -72,3 +69,4 @@ function Timer() {
 }
 
 export default Timer;
+

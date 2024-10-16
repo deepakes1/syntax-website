@@ -1,5 +1,5 @@
 
-import Logo from '../assets/logo.jpg'
+import Logo from '../assets/logo.png'
 import Drawer from '../components/Drawer';
 import React from 'react';
 import { useState } from 'react';
