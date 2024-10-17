@@ -13,7 +13,7 @@ function App() {
       
   return (
     <>
-      <div className="h-[10vh] bg-red-500">
+      <div className="h-[10vh] bg-red-500 flex justify-center items-center">
         <Navbar />
       </div>
       
