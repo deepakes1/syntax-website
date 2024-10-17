@@ -13,7 +13,7 @@ function App() {
       
   return (
     <>
-      <div className="h-[10vh] bg-red-500 flex justify-center items-center">
+      <div className="h-[10vh] bg-[#40377D] flex justify-center items-center">
         <Navbar />
       </div>
       
@@ -42,6 +42,11 @@ function App() {
       <div className='flex flex-col items-center justify-center mt-32 h-[40vh]'>
           <CardCarousel/>
         </div>
+
+      <div className="p-5 mt-16">
+        <h1 className='text-3xl font-bold'>About Symposium</h1>
+        <p className='text-lg mt-2'>Join us for Zinnia, an exciting symposium designed to inspire innovation, collaboration, and growth in computer science and engineering. This unique event unites students, faculty, and industry professionals, offering a platform for aspiring engineers to present their ideas and engage in knowledge-sharing. Zinnia aims to promotes a collaborative environment where participants from various academic levels can explore emerging technologies and discover new possibilities</p>
+      </div>
 
     </>
   )

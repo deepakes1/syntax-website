@@ -15,7 +15,7 @@ const Drawer = () => {
     return (
         <>
             <button onClick={toggleDrawer}>
-                <img src={menus} className='h-[20px] w-full object-cover' alt="" />
+                <img src={menus} className='h-[20px] w-full object-cover ' alt="" />
             </button>
             <DrawerComponent
                 open={isOpen}
