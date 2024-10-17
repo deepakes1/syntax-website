@@ -21,7 +21,7 @@ function App() {
         
          <div className="p-5">
         {/* Make this div occupy full height on mobile */}
-        <div className="min-h-screen flex flex-col justify-between">
+        <div className="h-screen flex flex-col justify-center">
           <div className="second-color text-center flex flex-col items-center justify-center flex-grow">
             <h1 className='text-3xl font-extrabold lg:text-3xl'>GOVERNMENT COLLEGE OF ENGINEERING ERODE</h1>
             <h1 className='text-2xl font-bold lg:text-xl mt-1'>DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING</h1>
