@@ -43,11 +43,13 @@ function App() {
             <AboutSymposium />
         </div> */}
       
-
-       <div className="p-6 mt-16 lg:mt-32 rounded-bl-[5rem] rounded-tr-[5rem] bg-[#40377D] lg:w-[85vw] mx-auto lg:p-10 text-[#E6E6FA]">
-        <h1 className='text-3xl font-bold text-center  '>About Symposium</h1>
+      <div className="p-5">
+        <div className="p-6 mt-16 lg:mt-32 rounded-bl-[5rem] rounded-tr-[5rem] bg-[#40377D] lg:w-[85vw] mx-auto lg:p-10 text-[#E6E6FA]">
+        <h1 className='text-3xl font-bold text-center'>About Symposium</h1>
         <p className='text-lg mt-5 '>Join us for <b>Zinnia</b>, an exciting symposium designed to inspire innovation, collaboration, and growth in computer science and engineering. This unique event unites students, faculty, and industry professionals, offering a platform for aspiring engineers to present their ideas and engage in knowledge-sharing. Zinnia aims to promotes a collaborative environment where participants from various academic levels can explore emerging technologies and discover new possibilities</p>
       </div> 
+      </div>
+       
 
       <div className='flex flex-col items-center justify-center mt-32 h-[40vh]'>
           <CardCarousel/>

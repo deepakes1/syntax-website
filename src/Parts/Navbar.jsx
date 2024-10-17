@@ -12,7 +12,7 @@ function Navbar() {
     <div className=' bg-navbar w-[90vw]  mx-auto text-white p-2 md:p-6'>
       <div className="md:flex justify-between items-center text-lg font-semibold">
         <div className="flex items-center  justify-between">
-          <img src={Logo}  className='h-10 w-10 object-cover rounded-full' alt="" />
+          <img src={Logo}  className='h-12 w-12 object-cover rounded-full' alt="" />
           <div className="md:hidden w-[10vw] " onClick={() => setShowNav(!showNav)}>
             <Drawer/>
           </div>
