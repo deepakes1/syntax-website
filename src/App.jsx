@@ -25,27 +25,18 @@ function App() {
           <h1 className='text-lg mt-1'>PROUDLY PRESENTS </h1>
           
           <div className="mt-5 flex flex-col items-center justify-center">
-            <img src={zinnia} className='h-full w-[70vw] md:w-[50vw]  object-cover' alt="" />
+            <img src={zinnia} className='h-full w-[80vw]  md:w-[50vw]  object-cover' alt="" />
           </div>
         </div> 
         
-        <div className="">
+        <div className="mt-10">
           <Timer/>
         </div>
 
         <div className='flex flex-col items-center justify-center mt-32 h-[40vh]'>
           <CardCarousel/>
         </div>
-
-
-
-        
-
-
       </div>
-      
-
-      
 
     </>
   )

@@ -12,40 +12,46 @@ const CardCarousel = () => {
   slidesToShow: 1, // Show one slide on small devices
   slidesToScroll: 1,
   autoplay: true,
-  autoplaySpeed: 4000,
-  centerMode: true, // Enable center mode
-  centerPadding: '0px', // Adjust the padding as needed
+  autoplaySpeed: 2000,
+  centerMode: true, 
+  centerPadding: '0px', 
   responsive: [
     {
       breakpoint: 768,
       settings: {
-        slidesToShow: 1, // Ensure only one card shows on small screens
-        slidesToScroll: 1, // Scroll one card at a time
+        slidesToShow: 1, 
+        slidesToScroll: 1, 
       },
     },
     {
       breakpoint: 1024,
       settings: {
-        slidesToShow: 3, // Show three cards on medium screens
+        slidesToShow: 3, 
         slidesToScroll: 1,
       },
     },
   ],
 };
+const images = [
+    'https://plus.unsplash.com/premium_photo-1710366327112-1c6b77517ff4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGxvZ29zfGVufDB8fDB8fHww',
+    'https://plus.unsplash.com/premium_photo-1710366327112-1c6b77517ff4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGxvZ29zfGVufDB8fDB8fHww',
+    'https://plus.unsplash.com/premium_photo-1710366327112-1c6b77517ff4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGxvZ29zfGVufDB8fDB8fHww',
+  ];
+  const texts = [
+    'This is the 1content on the back!',
+    'This is the 2content on the back!',
+    'This is the 3content on the back!',
+  ];
 
 
   return (
     <div className="carousel-container w-full ">
       <Slider {...settings}>
-        <div>
-          <Cards />
-        </div>
-        <div>
-           <Cards />
-        </div>
-        <div>
-           <Cards />
-        </div>
+        {images.map((image, index) => (
+          <div key={index}>
+            <Cards image={image} text={texts[index]} />
+          </div>
+        ))}
       </Slider>
     </div>
   );

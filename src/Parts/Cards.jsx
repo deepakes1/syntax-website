@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 // Import CSS for styling
 
-const Cards = () => {
+const Cards = ({image, text}) => {
   const [isFlipped, setIsFlipped] = useState(false);
   
   const toggleFlip = () => {
@@ -21,12 +21,12 @@ const Cards = () => {
 
   return (
     <div className={`flex flex-col justify-center items-center card ${isFlipped ? 'flipped' : ''}`} onMouseEnter={toggleFlip} onMouseLeave={toggleFlip}>
-      <div className="card-inner">
+      <div className="card-inner ">
         <div className="card-front">
-          <img src="https://via.placeholder.com/150" alt="Card Front" />
+          <img src={image} alt="Card Front" />
         </div>
         <div className="card-back">
-          <p>This is the content on the back!</p>
+          <p className='text-center bg-[#40377D] h-full text-[#E6E6FA]'>{text}</p>
         </div>
       </div>
     </div>
