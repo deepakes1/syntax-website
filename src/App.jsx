@@ -62,9 +62,11 @@ function App() {
 
 
       {/* about clg */}
-      <div className="p-5 mt-24 bg-[#40377D] text-[#E6E6FA]">
+      <div className="p-5">
+        <div className="p-5 mt-24 bg-[#40377D] rounded-tl-[5rem] rounded-br-[5rem] text-[#E6E6FA]">
         <h1 className='text-3xl font-bold text-center  '>About Our College</h1>
         <p className='text-lg mt-5 '>Government College of Engineering, Erode (GCE Erode), established in 1984, is a leading engineering institution in Tamil Nadu, India. <b>Affiliated with Anna University</b> , it offers a conducive learning environment on a <b>200-acre campus</b>. Known for its excellent infrastructure and qualified faculty, GCE Erode emphasizes research and boasts a strong record of student placements. It also serves as the <b>Zonal Headquarters</b> for <b>Zone-XI of Anna University</b>, overseeing engineering colleges in the region.</p>
+      </div>
       </div>
 
 
