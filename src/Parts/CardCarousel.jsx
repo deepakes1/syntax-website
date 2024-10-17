@@ -12,7 +12,7 @@ const CardCarousel = () => {
   slidesToShow: 1, // Show one slide on small devices
   slidesToScroll: 1,
   autoplay: true,
-  autoplaySpeed: 2000,
+  autoplaySpeed: 3000,
   centerMode: true, 
   centerPadding: '0px', 
   responsive: [
