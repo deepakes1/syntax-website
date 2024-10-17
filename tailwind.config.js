@@ -19,7 +19,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'cormorant': ['Cormorant Garamond', 'serif'],
-        'heading': ['Spicy Rice', 'serif'] 
+        'heading': ["Pattaya", "sans-serif"] 
       },
       colors: {
         border: "hsl(var(--border))",
