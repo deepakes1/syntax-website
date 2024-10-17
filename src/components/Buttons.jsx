@@ -52,7 +52,7 @@ export default function Buttons() {
         <motion.div variants={buttonVariants}>
           <motion.div animate={pulseAnimation}>
             <Button className="w-40 h-16 text-lg font-semibold bg-pink-500 hover:bg-pink-600 text-white">
-              Pulse
+              Events
             </Button>
           </motion.div>
         </motion.div>
@@ -60,7 +60,7 @@ export default function Buttons() {
         <motion.div variants={buttonVariants}>
           <motion.div animate={floatAnimation}>
             <Button className="w-40 h-16 text-lg font-semibold bg-yellow-500 hover:bg-yellow-600 text-white">
-              Float
+              Instruction
             </Button>
           </motion.div>
         </motion.div>
