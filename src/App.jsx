@@ -8,7 +8,11 @@ import CardCarousel from './Parts/CardCarousel';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
+import whatsapp from './assets/whatsapp.png'
+import instalogo from './assets/instalogo.png'
+import maillogo from './assets/maillogo.png'
 // import AboutSymposium from './Parts/AboutSymposium'
+
 function App() {
       
   return (
@@ -63,14 +67,37 @@ function App() {
 
       {/* about clg */}
       <div className="p-5">
-        <div className="p-5 mt-24 bg-[#40377D] rounded-tl-[5rem] rounded-br-[5rem] text-[#E6E6FA]">
+        <div className="p-5 mt-24 bg-[#40377D] rounded-tl-[5rem] rounded-br-[5rem] lg:w-[85vw] mx-auto lg:p-10 text-[#E6E6FA]">
         <h1 className='text-3xl font-bold text-center  '>About Our College</h1>
         <p className='text-lg mt-5 '>Government College of Engineering, Erode (GCE Erode), established in 1984, is a leading engineering institution in Tamil Nadu, India. <b>Affiliated with Anna University</b> , it offers a conducive learning environment on a <b>200-acre campus</b>. Known for its excellent infrastructure and qualified faculty, GCE Erode emphasizes research and boasts a strong record of student placements. It also serves as the <b>Zonal Headquarters</b> for <b>Zone-XI of Anna University</b>, overseeing engineering colleges in the region.</p>
       </div>
       </div>
 
 
-      {/* general instruction */}
+      {/* Contact Section */}
+      <div className="bg-blue-600 p-5 flex flex-col items-center justify-center" id = "contactsection">
+        <h1 className='text-3xl text-center font-black'>Contact Us</h1>
+
+        <div className="flex gap-3 mt-7 items-center">
+          <div className="">
+            <a href="https://wa.me/9944505576">
+              <img src={whatsapp} className='h-14 w-14 object-cover' alt="" />
+
+            </a>
+        </div>
+        <div className="">
+          <img src={instalogo} className='h-14 w-14 object-cover' alt="" />
+        </div>
+
+        <div className="">
+          <a href="mail">
+            <img src={maillogo} className='h-14 w-14 object-cover' alt="" />
+          </a>
+          
+        </div>
+        </div>
+
+      </div>
     
 
 
