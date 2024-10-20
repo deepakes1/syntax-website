@@ -1,5 +1,5 @@
 import React from 'react'
-
+import whatsapp from "../../assets/whatsapp.png"
 function Coding() {
   return (
     <div className="m-5 lg:w-[80vw] lg:mx-auto font-semibold">
@@ -58,7 +58,7 @@ function Coding() {
                 <li>The use of debuggers is allowed.</li>
             </ul>
 
-            <h1 className='text-3xl font-black mb-3 mt-10'>General Rules for the Event</h1>
+            <h1 className='text-3xl font-black mb-3 mt-10 underline'>General Rules for the Event</h1>
             <ul style={{listStyleType : "disc"}} className='text-xl' >
                 <li><span className='font-bold'>Team Structure :</span> Participants can compete only individually.</li>
                 <li><span className='font-bold'>Language Choice: </span> Participants may code in any language of their choice unless specified by the event.</li>
@@ -69,7 +69,7 @@ function Coding() {
                 <li><span className='font-bold'>Resources Allowed: </span> No external help like searching the web, but participants can refer to standard language documentation if needed.</li>
             </ul>
 
-             <p className='text-2xl lg:text-2xl mt-5 mb-2 font-bold'>Event Flow :</p>
+             <p className='text-2xl lg:text-3xl mt-10 mb-5 underline font-semibold'>Event Flow :</p>
              <ol style={{listStyleType : "number"}} className='text-xl' >
                 <li><span className='font-bold'>Round 1 : </span> All participants compete in coding.</li>
                 <li><span className='font-bold'>Elimination : </span> Top N participants move to the next round.</li>
@@ -81,8 +81,18 @@ function Coding() {
             </ol>
 
             <div className="text-center mt-5">
-                <a href="" className='bg-black text-white px-4 py-2'>Register Now!</a>
+                <a href="" className='bg-black text-lg text-white px-4 py-2 transition-all hover:rounded-xl'>Register Now!</a>
 
+            </div>
+            <div className="mt-5">
+                <h1 className='text-xl'>For inquiries, please contact our coordinator @muralitharan. </h1>
+                <div className="bg-black text-white inline-block px-4 py-2 mt-2 transition-all hover:bg-red-500 hover:rounded-br-3xl hover:text-black">
+                    <a className='flex gap-3  items-center' href='https://wa.me/9345479547'>
+                        <img src={whatsapp} className='h-7 w-7 object-cover' alt="" />
+                        <h1 className='text-xl font-semibold'>9345479547</h1>
+
+                    </a>
+                </div>
             </div>
         </div>
     </div>
