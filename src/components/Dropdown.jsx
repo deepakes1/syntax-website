@@ -18,7 +18,7 @@ const Dropdown = () => {
       <div>
         <button
           onClick={toggleDropdown}
-          className="inline-flex justify-center w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none"
+          className="inline-flex font-bold justify-center w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-lg  text-gray-700 hover:bg-gray-50 focus:outline-none"
         >
           Technical Events
           <svg
