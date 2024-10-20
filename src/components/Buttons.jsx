@@ -1,7 +1,7 @@
-'use client'
 
 import { motion } from 'framer-motion'
 import { Button } from "@/components/ui/button"
+import {Link} from "react-router-dom"
 
 export default function Buttons() {
   const buttonVariants = {
@@ -51,15 +51,19 @@ export default function Buttons() {
       <motion.div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <motion.div variants={buttonVariants}>
           <motion.div animate={pulseAnimation}>
-            <Button className="w-40 h-16 text-lg font-semibold bg-pink-500 hover:bg-pink-600 text-white">
+            <Link to= "/events">
+              <Button className="w-40 h-16 text-lg font-semibold bg-black hover:bg-pink-600 text-white">
               Events
             </Button>
+            </Link>
+              
+           
           </motion.div>
         </motion.div>
 
         <motion.div variants={buttonVariants}>
           <motion.div animate={floatAnimation}>
-            <Button className="w-40 h-16 text-lg font-semibold bg-yellow-500 hover:bg-yellow-600 text-white">
+            <Button className="w-40 h-16 text-lg font-semibold bg-black hover:bg-yellow-600 text-white">
               Instruction
             </Button>
           </motion.div>
@@ -67,7 +71,7 @@ export default function Buttons() {
 
         <motion.div variants={buttonVariants}>
           <motion.div animate={rotateAnimation}>
-            <Button className="w-40 h-16 text-lg font-semibold bg-green-500 hover:bg-green-600 text-white">
+            <Button className="w-40 h-16 text-lg font-semibold bg-black hover:bg-green-600 text-white">
               Rotate
             </Button>
           </motion.div>
