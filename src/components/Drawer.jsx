@@ -3,7 +3,7 @@ import menus from "../assets/menus.png";
 
 
 import DrawerComponent from 'react-modern-drawer'
-
+import { Link } from 'react-router-dom';
 import 'react-modern-drawer/dist/index.css'
 
 const Drawer = () => {  
@@ -25,7 +25,7 @@ const Drawer = () => {
             >
                 <div className="mt-4 md:mt-0 text-center flex flex-col items-center justify-center h-[90vh]  second-color font-bold md:font-semibold md:text-md gap-3">
                     <div className='mb-1'><h1 className='text-[#40377D] mt-3 px-3 py-1 md:py-2 rounded-tl-3xl rounded-br-3xl mx-auto bg-[#E6E6FA]'>Home</h1></div>
-                    <div className='mb-1'><h1 className='text-[#40377D] mt-3 px-3 py-1 md:py-1 rounded-tl-3xl rounded-br-3xl  mx-auto bg-[#E6E6FA]'>Event</h1></div>
+                    <div className='mb-1'><Link to ="/events" className='text-[#40377D] mt-3 px-3 py-1 md:py-1 rounded-tl-3xl rounded-br-3xl  mx-auto bg-[#E6E6FA]'>Events</Link></div>
                     <div className='mb-1'><h1 className='text-[#40377D] mt-3 px-3 py-1 md:py-1 rounded-tl-3xl rounded-br-3xl  mx-auto bg-[#E6E6FA]'>About</h1></div>
                     <div className='mb-1'><h1 className='text-[#40377D] mt-3 px-3 py-1 md:py-1 rounded-tl-3xl rounded-br-3xl  mx-auto bg-[#E6E6FA]'>Contact</h1></div>
                 </div>
