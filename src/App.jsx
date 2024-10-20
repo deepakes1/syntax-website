@@ -6,7 +6,7 @@ import Eventsection from './Parts/Eventsection'
 import Home from './components/Home';
 
 import Coding from './components/Tech Events/Coding';
-
+import TechnicalQuiz from './components/Tech Events/TechnicalQuiz';
 function App() {
       
   return (
@@ -24,6 +24,8 @@ function App() {
         <Route path='/' element = {<Home/>}/>
         <Route path='/events' element = {<Eventsection/>}/>
         <Route path='/events/tech/coding' element = {<Coding/>}/>
+        <Route path='/events/tech/Tecnical-Quiz' element = {<TechnicalQuiz/>}/>
+
       </Routes>
 
     </>
