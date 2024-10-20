@@ -59,7 +59,7 @@ const Dropdown = () => {
           <Link to="/events/tech/Mystery-Sql"  className="block px-4 py-2 text-lg text-black hover:bg-gray-100" role="menuitem">
             Mystery SQL
           </Link>
-          <Link to="events/tech/Technical-Game"  className="block px-4 py-2 text-lg text-black hover:bg-gray-100" role="menuitem">
+          <Link to="/events/tech/Technical-Game"  className="block px-4 py-2 text-lg text-black hover:bg-gray-100" role="menuitem">
             Technical Game
           </Link>
         </div>
