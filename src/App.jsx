@@ -7,6 +7,7 @@ import Home from './components/Home';
 
 import Coding from './components/Tech Events/Coding';
 import TechnicalQuiz from './components/Tech Events/TechnicalQuiz';
+import PaperPresentation from './components/Tech Events/PaperPresentation';
 function App() {
       
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path='/events' element = {<Eventsection/>}/>
         <Route path='/events/tech/coding' element = {<Coding/>}/>
         <Route path='/events/tech/Tecnical-Quiz' element = {<TechnicalQuiz/>}/>
+        <Route path='/events/tech/Paper-Presentation' element = {<PaperPresentation/>}/>
 
       </Routes>
 
