@@ -41,25 +41,25 @@ const Dropdown = () => {
         initial={false}
         animate={isOpen ? 'open' : 'closed'}
         variants={dropdownVariants}
-        className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 overflow-hidden"
+        className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 w-56 rounded-md shadow-lg  bg-white ring-1 ring-black ring-opacity-5 overflow-hidden"
       >
         <div className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
-          <a href="#" className="block px-4 py-2 text-sm text-black hover:bg-gray-100" role="menuitem">
+          <a href="#" className="block px-4 py-2 text-lg text-black hover:bg-gray-100" role="menuitem">
             Coding
           </a>
-          <a href="#" className="block px-4 py-2 text-sm text-black hover:bg-gray-100" role="menuitem">
+          <a href="#" className="block px-4 py-2 text-lg text-black hover:bg-gray-100" role="menuitem">
             Technical Quiz
           </a>
-          <a href="#" style={{ color: "black" }} className="block px-4 py-2 text-sm text-black hover:bg-gray-100" role="menuitem">
+          <a href="#"  className="block px-4 py-2 text-lg text-black hover:bg-gray-100" role="menuitem">
             Paper Presentation
           </a>
-          <a href="#" style={{ color: "black" }} className="block px-4 py-2 text-sm text-black hover:bg-gray-100" role="menuitem">
+          <a href="#"  className="block px-4 py-2 text-lg text-black hover:bg-gray-100" role="menuitem">
             Project Expo
           </a>
-          <a href="#" style={{ color: "black" }} className="block px-4 py-2 text-sm text-black hover:bg-gray-100" role="menuitem">
+          <a href="#"  className="block px-4 py-2 text-lg text-black hover:bg-gray-100" role="menuitem">
             Mystery SQL
           </a>
-          <a href="#" style={{ color: "black" }} className="block px-4 py-2 text-sm text-black hover:bg-gray-100" role="menuitem">
+          <a href="#"  className="block px-4 py-2 text-lg text-black hover:bg-gray-100" role="menuitem">
             Technical Game
           </a>
         </div>
