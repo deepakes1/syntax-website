@@ -9,6 +9,7 @@ import Coding from './components/Tech Events/Coding';
 import TechnicalQuiz from './components/Tech Events/TechnicalQuiz';
 import PaperPresentation from './components/Tech Events/PaperPresentation';
 import ProjectExpo from './components/Tech Events/ProjectExpo';
+import Sql from './components/Tech Events/Sql';
 function App() {
       
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path='/events/tech/Tecnical-Quiz' element = {<TechnicalQuiz/>}/>
         <Route path='/events/tech/Paper-Presentation' element = {<PaperPresentation/>}/>
         <Route path='/events/tech/Project-Expo' element = {<ProjectExpo/>}/>
+        <Route path='/events/tech/Mystery-Sql' element = {<Sql/>}/>
 
       </Routes>
 
