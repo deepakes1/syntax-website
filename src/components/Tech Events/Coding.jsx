@@ -2,7 +2,7 @@ import React from 'react'
 
 function Coding() {
   return (
-    <div className="m-5 lg:w-[80vw] lg:mx-auto">
+    <div className="m-5 lg:w-[80vw] lg:mx-auto font-extrabold">
         <div className='p-5' >
             <h2 className="text-center text-black text-2xl lg:text-4xl font-semibold">Coding + Reverse Coding + Debugging</h2>
 
