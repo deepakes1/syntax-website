@@ -14,6 +14,7 @@ import TechnicalGame from './components/Tech Events/TechnicalGame';
 import Photography from './components/Non Tech events/Photography';
 import Videography from './components/Non Tech events/Videography';
 import PosterDesign from './components/Non Tech events/PosterDesign';
+import Connection from './components/Non Tech events/Connection';
 function App() {
       
   return (
@@ -35,6 +36,8 @@ function App() {
         <Route path='/events/non-tech/Photography' element = {<Photography/>}/>
         <Route path='/events/non-tech/Videography' element = {<Videography/>}/>
         <Route path='/events/non-tech/PosterDesign' element = {<PosterDesign/>}/>
+        <Route path='/events/non-tech/Connection' element = {<Connection/>}/>
+    
       </Routes>
 
     </>

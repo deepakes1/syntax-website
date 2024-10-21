@@ -1,5 +1,5 @@
 import React from 'react'
-
+import whatsapp from "../../assets/whatsapp.png" 
 function Connection() {
   return (
     <div>

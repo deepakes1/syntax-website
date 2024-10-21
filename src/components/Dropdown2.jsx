@@ -53,9 +53,9 @@ const Dropdown2 = () => {
           <Link to="/events/non-tech/PosterDesign"  className="block px-4 py-2 text-lg text-black hover:bg-gray-100" role="menuitem">
             Poster Design
           </Link>
-          <a href="#"  className="block px-4 py-2 text-lg text-black hover:bg-gray-100" role="menuitem">
+          <Link to="/events/non-tech/Connection"  className="block px-4 py-2 text-lg text-black hover:bg-gray-100" role="menuitem">
             Connection
-          </a>
+          </Link>
           <a href="#"  className="block px-4 py-2 text-lg text-black hover:bg-gray-100" role="menuitem">
             The Marble Showdown
           </a>
