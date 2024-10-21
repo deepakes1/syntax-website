@@ -15,6 +15,7 @@ import Photography from './components/Non Tech events/Photography';
 import Videography from './components/Non Tech events/Videography';
 import PosterDesign from './components/Non Tech events/PosterDesign';
 import Connection from './components/Non Tech events/Connection';
+import MarbleShowDown from './components/Non Tech events/MarbleShowDown';
 function App() {
       
   return (
@@ -37,7 +38,8 @@ function App() {
         <Route path='/events/non-tech/Videography' element = {<Videography/>}/>
         <Route path='/events/non-tech/PosterDesign' element = {<PosterDesign/>}/>
         <Route path='/events/non-tech/Connection' element = {<Connection/>}/>
-    
+        <Route path='/events/non-tech/MarbleShowDown' element = {<MarbleShowDown/>}/>
+   
       </Routes>
 
     </>
