@@ -82,7 +82,7 @@ function Contact() {
     </div>
 
 
-      <h1 className='text-3xl font-semibold text-center mt-10 mb-10'>We are deeply grateful for your commitment; your impact is immeasurable!</h1>
+      <h1 className='text-3xl font-semibold text-center mt-10 mb-10 p-5'>We are deeply grateful for your commitment; your impact is immeasurable!</h1>
       <div className='flex flex-col  justify-center items-center'>
         
       
