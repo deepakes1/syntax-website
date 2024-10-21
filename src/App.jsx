@@ -12,12 +12,13 @@ import ProjectExpo from './components/Tech Events/ProjectExpo';
 import Sql from './components/Tech Events/Sql';
 import TechnicalGame from './components/Tech Events/TechnicalGame';
 import Photography from './components/Non Tech events/Photography';
-
+import Videography from './components/Non Tech events/Videography';
+import PosterDesign from './components/Non Tech events/PosterDesign';
 function App() {
       
   return (
     <>
-      <div className="h-[10vh] bg-[#40377D] flex justify-center items-center">
+      <div className="h-[10vh] bg-black flex justify-center items-center">
         <Navbar />
       </div>
       
@@ -32,6 +33,8 @@ function App() {
         <Route path='/events/tech/Mystery-Sql' element = {<Sql/>}/>
         <Route path='/events/tech/Technical-Game' element = {<TechnicalGame/>}/>
         <Route path='/events/non-tech/Photography' element = {<Photography/>}/>
+        <Route path='/events/non-tech/Videography' element = {<Videography/>}/>
+        <Route path='/events/non-tech/PosterDesign' element = {<PosterDesign/>}/>
       </Routes>
 
     </>

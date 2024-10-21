@@ -47,12 +47,12 @@ const Dropdown2 = () => {
           <Link to="/events/non-tech/Photography" className="block px-4 py-2 text-lg text-black hover:bg-gray-100" role="menuitem">
             Photography
           </Link>
-          <a href="#" className="block px-4 py-2 text-lg text-black hover:bg-gray-100" role="menuitem">
+          <Link to="/events/non-tech/Videography" className="block px-4 py-2 text-lg text-black hover:bg-gray-100" role="menuitem">
             Videography
-          </a>
-          <a href="#"  className="block px-4 py-2 text-lg text-black hover:bg-gray-100" role="menuitem">
+          </Link>
+          <Link to="/events/non-tech/PosterDesign"  className="block px-4 py-2 text-lg text-black hover:bg-gray-100" role="menuitem">
             Poster Design
-          </a>
+          </Link>
           <a href="#"  className="block px-4 py-2 text-lg text-black hover:bg-gray-100" role="menuitem">
             Connection
           </a>
