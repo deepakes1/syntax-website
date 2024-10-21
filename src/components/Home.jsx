@@ -18,7 +18,7 @@ function Home() {
           <div className="second-color  text-center md:flex flex-col items-center justify-center">
           <h1 className='text-3xl font-extrabold lg:text-3xl'>GOVERNMENT COLLEGE OF ENGINEERING ERODE</h1>
           <h1 className='text-2xl font-bold lg:text-xl mt-2'>DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING</h1>
-          <h1 className='text-xl  mt-2'>Rolls Out the Red Carpet for </h1>
+          <h1 className='text-xl text-red-600 mt-2'>Rolls Out the Red Carpet for </h1>
           
           <div className="mt-10 flex flex-col items-center justify-center">
             <img src={zinnia} className='h-full w-[80vw]  md:w-[50vw] scale-125 md:scale-100  object-cover' alt="" />
@@ -63,7 +63,7 @@ function Home() {
 
 
       {/* Contact Section */}
-      <div className="bg-black p-5 flex flex-col items-center justify-center" id = "contactsection">
+      <div className="bg-black p-5 flex flex-col items-center justify-center">
         <h1 className='text-3xl text-white text-center font-black'>Contact Us</h1>
 
         <div className="flex gap-3 mt-7 items-center">
@@ -74,7 +74,9 @@ function Home() {
             </a>
         </div>
         <div className="">
+        <a href="https://www.instagram.com/gce._.zinnia?igsh=MTVidmhrN2xzOHoweA==">
           <img src={instalogo} className='h-14 w-14 object-cover' alt="" />
+        </a>
         </div>
 
         <div className="">

@@ -17,6 +17,7 @@ import PosterDesign from './components/Non Tech events/PosterDesign';
 import Connection from './components/Non Tech events/Connection';
 import MarbleShowDown from './components/Non Tech events/MarbleShowDown';
 import Flipbottle from './components/Non Tech events/Flipbottle';
+import Contact from './Parts/Contact';
 function App() {
       
   return (
@@ -41,6 +42,7 @@ function App() {
         <Route path='/events/non-tech/Connection' element = {<Connection/>}/>
         <Route path='/events/non-tech/MarbleShowDown' element = {<MarbleShowDown/>}/>
         <Route path='/events/non-tech/Flipbottle' element = {<Flipbottle/>}/>
+        <Route path='/contact' element = {<Contact/>}/>
 
       </Routes>
 

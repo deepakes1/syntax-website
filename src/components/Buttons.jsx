@@ -56,8 +56,6 @@ export default function Buttons() {
               Events
             </Button>
             </Link>
-              
-           
           </motion.div>
         </motion.div>
 
