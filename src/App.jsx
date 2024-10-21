@@ -11,6 +11,8 @@ import PaperPresentation from './components/Tech Events/PaperPresentation';
 import ProjectExpo from './components/Tech Events/ProjectExpo';
 import Sql from './components/Tech Events/Sql';
 import TechnicalGame from './components/Tech Events/TechnicalGame';
+import Photography from './components/Non Tech events/Photography';
+
 function App() {
       
   return (
@@ -18,10 +20,6 @@ function App() {
       <div className="h-[10vh] bg-[#40377D] flex justify-center items-center">
         <Navbar />
       </div>
-      
-      
-
-
       
 
       <Routes>
@@ -33,6 +31,7 @@ function App() {
         <Route path='/events/tech/Project-Expo' element = {<ProjectExpo/>}/>
         <Route path='/events/tech/Mystery-Sql' element = {<Sql/>}/>
         <Route path='/events/tech/Technical-Game' element = {<TechnicalGame/>}/>
+        <Route path='/events/non-tech/Photography' element = {<Photography/>}/>
       </Routes>
 
     </>
