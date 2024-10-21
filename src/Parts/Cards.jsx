@@ -23,10 +23,11 @@ const Cards = ({image, text}) => {
     <div className={`flex flex-col justify-center items-center card ${isFlipped ? 'flipped' : ''}`} onMouseEnter={toggleFlip} onMouseLeave={toggleFlip}>
       <div className="card-inner ">
         <div className="card-front">
-          <img src={image} alt="Card Front" />
+        <p className='text-center bg-[#40377D] h-full text-[#E6E6FA]'>{text}</p>
+
         </div>
         <div className="card-back">
-          <p className='text-center bg-[#40377D] h-full text-[#E6E6FA]'>{text}</p>
+          <img src={image} alt="Card Front" />
         </div>
       </div>
     </div>

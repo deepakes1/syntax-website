@@ -3,7 +3,7 @@ import React from 'react';
 import Slider from 'react-slick';
 import Cards from './Cards';
 
-
+import hackathon from "../assets/hackathon.png"
 const CardCarousel = () => {
   const settings = {
   dots: true,
@@ -33,9 +33,9 @@ const CardCarousel = () => {
   ],
 };
 const images = [
-    'https://plus.unsplash.com/premium_photo-1710366327112-1c6b77517ff4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGxvZ29zfGVufDB8fDB8fHww',
-    'https://plus.unsplash.com/premium_photo-1710366327112-1c6b77517ff4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGxvZ29zfGVufDB8fDB8fHww',
-    'https://plus.unsplash.com/premium_photo-1710366327112-1c6b77517ff4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGxvZ29zfGVufDB8fDB8fHww',
+    hackathon,
+    hackathon,
+    hackathon,
   ];
   const texts = [
     'This is the 1content on the back!',
