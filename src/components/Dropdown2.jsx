@@ -56,12 +56,12 @@ const Dropdown2 = () => {
           <Link to="/events/non-tech/Connection"  className="block px-4 py-2 text-lg text-black hover:bg-gray-100" role="menuitem">
             Connection
           </Link>
-          <Link to="/events/non-tech/MarbleShowDown"  className="block px-4 py-2 text-lg text-black hover:bg-gray-100" role="menuitem">
+          <Link to="`/events/non-tech/MarbleShowDown`"  className="block px-4 py-2 text-lg text-black hover:bg-gray-100" role="menuitem">
             The Marble Showdown
           </Link>
-          <a href="#"  className="block px-4 py-2 text-lg text-black hover:bg-gray-100" role="menuitem">
+          <Link to="/events/non-tech/Flipbottle"  className="block px-4 py-2 text-lg text-black hover:bg-gray-100" role="menuitem">
             Flip the Bottle
-          </a>
+          </Link>
         </div>
       </motion.div>
     </div>
