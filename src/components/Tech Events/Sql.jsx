@@ -5,7 +5,7 @@ function Sql() {
     <div>
       <div className="m-5 lg:w-[40vw] lg:mx-auto font-semibold">
         <div className='p-5' >
-            <h2 className="text-center text-black text-3xl lg:text-4xl font-bold">Technical Quiz</h2>
+            <h2 className="text-center text-black text-3xl lg:text-4xl font-bold">Mystery SQL</h2>
 
             <p className='text-2xl lg:text-2xl mt-5 mb-2 font-bold underline'>General Rules :</p>
 
