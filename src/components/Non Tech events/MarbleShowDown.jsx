@@ -28,7 +28,7 @@ function MarbleShowDown() {
             <div className="mt-5">
                 <h1 className='text-xl'>For inquiries, please contact our coordinator <b>@Sriram B S</b>. </h1>
                 <div className="bg-black text-white inline-block px-4 py-2 mt-2 transition-all hover:bg-red-500 hover:rounded-br-3xl hover:text-black">
-                    <a className='flex gap-3  items-center' href='https://wa.me/8838206664'>
+                    <a className='flex gap-3  items-center' href='https://wa.me/918838206664'>
                         <img src={whatsapp} className='h-7 w-7 object-cover' alt="" />
                         <h1 className='text-xl font-semibold'>8838206664</h1>
                     </a>
