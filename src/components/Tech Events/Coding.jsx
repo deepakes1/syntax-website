@@ -12,7 +12,7 @@ function Coding() {
                 <li><span className='font-extrabold'>Participants will use an online coding platform HackerRank so all are must have an account HackerRank.</span></li>
                 <li><span className='font-extrabold'>Strictly prohibited. Any form of cheating or copying will lead to immediate disqualification.</span></li>
                 <li><span className='font-extrabold'>No communication with other participants or use of external resources during the event. </span></li>
-                <li><span className='font-extrabold'>Participants should bring their own laptops and chargers (Optional). Internet and power supply will be provided at the venue.</span></li>
+                <li><span className='font-extrabold'>Participants may bring their own laptops and chargers. Internet and power supply will be provided at the venue.</span></li>
                 <li><span className='font-extrabold'>Solutions must be submitted within the time limit. Late submissions will not be accepted.</span></li>
                 <li><span className='font-extrabold'>The decision of the judges will be final.</span></li>
 

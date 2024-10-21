@@ -72,7 +72,7 @@ export default function Buttons() {
         <motion.div variants={buttonVariants}>
           <motion.div animate={rotateAnimation}>
             <Button className="w-40 h-16 text-lg font-semibold bg-black hover:bg-green-600 text-white">
-              Rotate
+              FAQ
             </Button>
           </motion.div>
         </motion.div>
