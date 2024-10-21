@@ -32,7 +32,7 @@ function TechnicalGame() {
 
             </div>
             <div className="mt-5">
-                <h1 className='text-xl'>For inquiries, please contact our coordinator <b>@Dhanush G T</b>. </h1>
+                <h1 className='text-xl'>For inquiries, please contact our coordinator <b>@Dhanush G T</b> & <b>@Divya Dharshini T</b> </h1>
                 <div className="bg-black text-white inline-block px-4 py-2 mt-2 transition-all hover:bg-red-500 hover:rounded-br-3xl hover:text-black">
                     <a className='flex gap-3  items-center' href='https://wa.me/9514500971'>
                         <img src={whatsapp} className='h-7 w-7 object-cover' alt="" />
