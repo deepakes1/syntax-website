@@ -21,7 +21,7 @@ function ProjectExpo() {
 
              
             <div className="text-center mt-5">
-                <a href="" className='bg-black text-lg text-white px-4 py-2 transition-all hover:rounded-xl'>Register Now!</a>
+                <a href="https://docs.google.com/forms/d/1longhzGNqbMuhV7yqxk24ImegihA8B21q-W8H-4fUjY/edit" target='_blank' className='bg-black text-lg text-white px-4 py-2 transition-all hover:rounded-xl'>Register Now!</a>
 
             </div>
             <div className="mt-5">

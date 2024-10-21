@@ -1,5 +1,4 @@
 import React from 'react'
-import menus from "../assets/menus.png";
 
 
 import DrawerComponent from 'react-modern-drawer'
@@ -28,7 +27,7 @@ const Drawer = () => {
                 <div className="mt-4 md:mt-0 text-center flex flex-col items-center justify-center h-[90vh]  second-color font-bold md:font-semibold md:text-md gap-6">
                     <div className='mb-1'><Link to = "/" className='text-[#40377D] mt-5 px-4 py-2 md:py-2 rounded-tl-3xl rounded-br-3xl mx-auto bg-[#E6E6FA]'>Home</Link></div>
                     <div className='mb-1'><Link to ="/events" className='text-[#40377D] mt-5 px-4 py-2 md:py-1 rounded-tl-3xl rounded-br-3xl  mx-auto bg-[#E6E6FA]'>Events</Link></div>
-                    <div className='mb-1'><Link className='text-[#40377D] mt-5 px-4 py-2 md:py-1 rounded-tl-3xl rounded-br-3xl  mx-auto bg-[#E6E6FA]'>About</Link></div>
+                    <div className='mb-1'><Link to = "/About" className='text-[#40377D] mt-5 px-4 py-2 md:py-1 rounded-tl-3xl rounded-br-3xl  mx-auto bg-[#E6E6FA]'>About</Link></div>
                     <div className='mb-1'><Link className='text-[#40377D] mt-5 px-4 py-2 md:py-1 rounded-tl-3xl rounded-br-3xl  mx-auto bg-[#E6E6FA]'>Contact</Link></div>
                 </div>
             </DrawerComponent>

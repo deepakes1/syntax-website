@@ -26,7 +26,7 @@ function Flipbottle() {
             </ul>
 
             <div className="text-center mt-5">
-                <a href="" className='bg-black text-lg text-white px-4 py-2 transition-all hover:rounded-xl'>Register Now!</a>
+                <a href="https://docs.google.com/forms/d/1SJzbkDOzKDEwU-gZbHV8sYhUIbkRYk8ARdHuD75UyiE/edit" target='_blank' className='bg-black text-lg text-white px-4 py-2 transition-all hover:rounded-xl'>Register Now!</a>
 
             </div>
             <div className="mt-5">

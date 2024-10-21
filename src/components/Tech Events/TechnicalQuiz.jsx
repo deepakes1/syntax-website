@@ -23,7 +23,7 @@ function TechnicalQuiz() {
             </ul>
 
             <div className="text-center mt-5">
-                <a href="" className='bg-black text-lg text-white px-4 py-2 transition-all hover:rounded-xl'>Register Now!</a>
+                <a href="https://docs.google.com/forms/d/195jZVNK-tR_FJi605Jpfw-8zCa4rshCpT1-cZXvzLqA/edit" target='_blank' className='bg-black text-lg text-white px-4 py-2 transition-all hover:rounded-xl'>Register Now!</a>
 
             </div>
             <div className="mt-5">

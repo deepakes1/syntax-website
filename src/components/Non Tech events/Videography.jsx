@@ -23,7 +23,7 @@ function Videography() {
             </ul>
 
             <div className="text-center mt-5">
-                <a href="" className='bg-black text-lg text-white px-4 py-2 transition-all hover:rounded-xl'>Register Now!</a>
+                <a href="https://docs.google.com/forms/d/1kEXITvpDWeYhTU1NSQ9CzoM13R0onrS7D-3kf0vA-IQ/edit" target='_blank' className='bg-black text-lg text-white px-4 py-2 transition-all hover:rounded-xl'>Register Now!</a>
 
             </div>
             <div className="mt-5">

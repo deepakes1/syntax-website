@@ -22,7 +22,7 @@ function MarbleShowDown() {
             </ul>
 
             <div className="text-center mt-5">
-                <a href="" className='bg-black text-lg text-white px-4 py-2 transition-all hover:rounded-xl'>Register Now!</a>
+                <a href="https://docs.google.com/forms/d/1WgFZptWxEJ0ela4T8e1kn_v6XBxLsGEdmfOrOZ1mtgQ/edit" target='_blank' className='bg-black text-lg text-white px-4 py-2 transition-all hover:rounded-xl'>Register Now!</a>
 
             </div>
             <div className="mt-5">

@@ -21,7 +21,7 @@ function Sql() {
             </ul>
 
             <div className="text-center mt-5">
-                <a href="" className='bg-black text-lg text-white px-4 py-2 transition-all hover:rounded-xl'>Register Now!</a>
+                <a href="https://docs.google.com/forms/d/1TKNf_p_v20arsi7RKmQ1QRo3EodxZNR_VNXqH0lKA3Q/edit" target='_blank' className='bg-black text-lg text-white px-4 py-2 transition-all hover:rounded-xl'>Register Now!</a>
 
             </div>
             <div className="mt-5">
