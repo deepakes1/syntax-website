@@ -11,14 +11,14 @@ function TechnicalQuiz() {
             <p className='text-2xl lg:text-2xl mt-5 mb-2 font-bold'>General Rules :</p>
 
             <ul style={{listStyleType : "disc"}} className='text-xl' >
-                <li><span className='font-extrabold'>Participants :</span> This event permits only one participant per registration</li>
-                <li><span className='font-extrabold'>No External Help : </span> Use of external help such as books, notes, internet searches, or communication with others is usually prohibited.</li>
-                <li><span className='font-extrabold'>One Attempt Only : </span> Participants typically get only one chance to submit their answers for each question.</li>
-                <li><span className='font-extrabold'>Scoring : </span> Points are awarded for correct answers, and there may or may not be negative marking for incorrect ones. This is usually specified in advance.</li>
-                <li><span className='font-extrabold'>Tie-breaking : </span> In the event of a tie, tie-breaking procedures may include extra questions or consideration of the time taken to complete the quiz.</li>
-                <li><span className='font-extrabold'> Platform-Specific Rules : </span>If the quiz is conducted online, platform-specific rules (such as no switching between windows/tabs) may apply.</li>
-                <li><span className='font-extrabold'>Technical Issues : </span> Participants are expected to report any technical issues immediately. Depending on the rules, a decision may be made whether to reattempt or proceed.</li>
-                <li><span className='font-extrabold'>Fair Play :  </span>Any form of cheating or unfair advantage will result in disqualification or penalties.</li>
+                <li><span className='font-extrabold'>Only Engineering College Students are allowed.</span> </li>
+                <li><span className='font-extrabold'>College ID Card is must.</span></li>
+                <li><span className='font-extrabold'>Only Registered Students are able to participate in the event.</span></li>
+                <li><span className='font-extrabold'>Laptop or Mobile is preferred to attend the Technical Quiz. </span></li>
+                <li><span className='font-extrabold'>Quiz contains Minimum of 2 rounds or a Maximum of 3 rounds (in worst case). </span></li>
+                <li><span className='font-extrabold'>Based on the performance of participants, 3 candidates will be selected as winners. </span></li>
+                <li><span className='font-extrabold'>Participants are expected to work individually and are not allowed leave the quiz area until the event is over.</span></li>
+                <li><span className='font-extrabold'>Participation Certificate will be provided to all the participants. </span></li>
 
             </ul>
 

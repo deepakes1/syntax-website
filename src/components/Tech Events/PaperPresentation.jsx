@@ -10,22 +10,14 @@ function PaperPresentation() {
             <p className='text-2xl lg:text-3xl mt-5 underline mb-2 font-bold'>General Rules :</p>
 
             <ul style={{listStyleType : "disc"}} className='text-xl' >
-                <li><span className='font-extrabold'>Eligibility :</span> Participants must be currently enrolled students or professionals, depending on the event.</li>
-                <li><span className='font-extrabold'>Paper Topic : </span> The topic of the paper must be relevant to the theme or subject of the conference or seminar. It should be an original piece of work or research.</li>
-                <li><span className='font-extrabold'>Presentation Duration : </span> Each participant will be allotted a certain time (usually 10-15 minutes) for presenting the paper, followed by a Q&A session (5-10 minutes).</li>
-                <li><span className='font-extrabold'>Presentation Format : </span>: Presentations must be in PowerPoint, Google Slides, or any similar format, and need to be submitted before the presentation day.</li>
-            </ul>
-
-             <p className='text-2xl lg:text-3xl mt-5 mb-2 underline font-bold'>Participant Instructions :</p>
-
-            <ul style={{listStyleType : "disc"}} className='text-xl' >
-                <li><span className='font-extrabold'>Preparation :</span> Ensure your paper is ready well before the deadline. Practice your presentation to manage time effectively.</li>
-                <li><span className='font-extrabold'>Presentation Slides : </span> Limit the number of slides (usually 10-12 slides for a 10-15 minute presentation).Keep slides simple, with minimal text and more visual aids (charts, graphs, etc.)</li>
-                <li><span className='font-extrabold'>Submission Deadline:  </span> Submit both your paper and slides by the specified deadline to avoid disqualification.</li>
-                <li><span className='font-extrabold'>On the Day of Presentation :  </span>: Arrive early to test the equipment and ensure everything works. Stick to the time limit. Speak clearly and confidently, making sure to engage with the audience.</li>
-                <li><span className='font-extrabold'>Q & A Etiquette :   </span>: Be prepared to answer questions about your paper.</li>
-                <li><span className='font-extrabold'>Judging Criteria : </span>: <br />1. Originality and relevance of the research  <br /> 2. Clarity and structure of the paper <br />3. o	Presentation skills (clarity, engagement, time management) <br /> 4. Handling of Q&A session.</li>
-
+                <li><span className='font-extrabold'>Team Composition & Eligibility :</span> Teams can have 1 to 3 participants. Only registered Engineering college students can participate; ID cards are required.</li>
+                <li><span className='font-extrabold'>Presentation Time Limit: </span>Teams will have 5-10 minutes for the presentation, followed by a Q&A session. Participation certificates will be given to all. </li>
+                <li><span className='font-extrabold'>Abstract & Paper Submission :</span> Abstracts (max 250 words) and papers (max 15 pages) must be emailed to csesyntax@gmail.com with the domain and sub-category in the subject line.</li>
+                <li><span className='font-extrabold'>Final Paper Submission :</span> Papers must include a cover page with title, team members' names, college details, contact numbers, and email IDs.</li>
+                <li><span className='font-extrabold'>Submission Guidelines: </span>Email abstracts, papers, and presentations (PPT) to csesyntax@gmail.com. Contact the same email for any difficulties.</li>
+                <li><span className='font-extrabold'>Judges' Decision :</span> The decision of the judges is final. No arguments or appeals will be entertained.</li>
+                <li><span className='font-extrabold'>Submission Deadline :</span> The soft copy of your final paper must be submitted via email one day prior to the presentation.</li>
+                <li><span className='font-extrabold'>Event Details : </span>: Topics will be announced on the official website. Only Engineering college students are eligible to participate.</li>            
             </ul>
 
             <div className="text-center mt-5">

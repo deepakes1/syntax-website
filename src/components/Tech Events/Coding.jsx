@@ -5,7 +5,7 @@ function Coding() {
     <div className="m-5 lg:w-[80vw] lg:mx-auto font-semibold">
         <div className='p-5' >
             <h2 className="text-center text-black text-3xl lg:text-4xl font-bold">Coding</h2>
-            <p className='text-2xl lg:text-2xl  mt-3  font-bold'>Rules:</p>
+            <p className='text-2xl lg:text-2xl  mt-3 mb-4 font-bold'>Rules:</p>
 
             <ul style={{listStyleType : "disc"}} className='text-xl' >
                 <li><span className='font-extrabold'>Coding must be done in the programming language by your choice e.g., C, C++, Java, Python.</span> </li>
