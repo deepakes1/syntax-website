@@ -4,8 +4,9 @@ function Contact() {
   return (
 
     <>
+    
+    <div className="w-screen ">
     <h1 className='text-3xl font-bold text-center mt-7'>For assistance, Contact our Coordinators</h1>
-    <div className="w-full">
         <div className="flex mt-5 flex-col justify-center items-center">
         <table style={{ border: "1px solid black", borderCollapse: "collapse", width: "50%" }}>
             <thead>
@@ -375,8 +376,8 @@ function Contact() {
 
       <div className="flex flex-col md:flex-row mt-5 gap-5 mb-10 justify-center">
 
-        <div className="shadow-2xl border border-black md:rounded-tr-3xl md:rounded-bl-3xl p-5 text-xl font-bold text-center mx-auto ">
-          <div className=" text-center flex gap-4">
+        <div className="shadow-2xl border border-black md:rounded-tr-3xl md:rounded-bl-3xl p-5 text-xl font-bold text-center">
+          <div className=" text-center md:flex md:gap-5">
               <h1>Sudhakar S</h1>
               <h1>Madhavan S</h1>
               <h1>Mohammed Shafiyulla</h1>
