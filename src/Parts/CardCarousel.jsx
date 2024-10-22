@@ -3,7 +3,12 @@ import React from 'react';
 import Slider from 'react-slick';
 import Cards from './Cards';
 
-import hackathon from "../assets/hackathon.png"
+import img1 from "../../src/assets/Codingfinal.png";
+import img2 from "../assets/Hackathonfinal.png";  
+import img3 from "../assets/Mysterysqlfinal.png";
+import img4 from "../assets/paperpresentationfinal.png";
+import img5 from "../assets/Technicalquizfinal.png";
+import img6 from "../assets/Techxcelerate.png";
 const CardCarousel = () => {
   const settings = {
   dots: true,
@@ -33,11 +38,17 @@ const CardCarousel = () => {
   ],
 };
 const images = [
-    hackathon,
-    hackathon,
-    hackathon,
+    img1,
+    img2,
+    img3,
+    img4,
+    img5,
+    img6
   ];
   const texts = [
+    'This is the 1content on the back!',
+    'This is the 2content on the back!',
+    'This is the 3content on the back!',
     'This is the 1content on the back!',
     'This is the 2content on the back!',
     'This is the 3content on the back!',

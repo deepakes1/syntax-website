@@ -8,7 +8,7 @@ function Contact() {
     <div className="w-screen ">
     <h1 className='text-3xl font-bold text-center mt-7'>For assistance, Contact our Coordinators</h1>
         <div className="flex mt-5 flex-col justify-center items-center">
-        <table style={{ border: "1px solid black", borderCollapse: "collapse", width: "50%" }}>
+        <table style={{ border: "1px solid black", borderCollapse: "collapse", width: "80%" }}>
             <thead>
                 <tr>
                     <th style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px", fontWeight: "bolder"   }}>Coordinator</th>
