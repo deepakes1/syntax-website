@@ -36,7 +36,7 @@ export default function Timer2() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-700 to-indigo-800 text-white">
-      <div className="container mx-auto p-3">
+      <div className="container mx-auto p-5">
         <header className="text-center mb-16">
           <img src={zinnireglogo} className='h-[20vh] w-full object-contain' alt="" />
           <p className="text-2xl mb-4">Government College of Engineering Erode</p>
