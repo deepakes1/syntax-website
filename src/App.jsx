@@ -17,17 +17,26 @@ import PosterDesign from './components/Non Tech events/PosterDesign';
 import Connection from './components/Non Tech events/Connection';
 import MarbleShowDown from './components/Non Tech events/MarbleShowDown';
 import Flipbottle from './components/Non Tech events/Flipbottle';
+import Faq from './Parts/Faq';
 
 import About from './Parts/About';
 import Contact from './Parts/Contact';
 import Hackathon from './Parts/Hackathon';
+import Timer2 from './Parts/Timer2';
 function App() {
       
   return (
     <>
-      <div className="h-[10vh] bg-black flex justify-center items-center">
+      {/* <div className="h-[10vh] bg-black flex justify-center items-center">
         <Navbar />
-      </div>
+      </div> */}
+
+    <div className="">
+
+        <Timer2/>
+    </div>
+      
+
       
 
       <Routes>
@@ -48,6 +57,7 @@ function App() {
         <Route path='/contact' element = {<Contact/>}/>
         <Route path='/About' element = {<About/>}/>
         <Route path='/Hackathon' element = {<Hackathon/>}/>
+        <Route path='/Faq' element = {<Faq/>}/>
       </Routes>
 
     </>

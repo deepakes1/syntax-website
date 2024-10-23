@@ -12,8 +12,8 @@ import 'slick-carousel/slick/slick-theme.css';
 
 function Home() {
   return (
-    <div>
-      <div className="p-5 h-[80vh] md:h-[70vh] ">
+     <div>
+      {/* <div className="p-5 h-[80vh] md:h-[70vh] ">
          <div className="heading">
           <div className="second-color  text-center md:flex flex-col items-center justify-center">
           <h1 className='text-3xl font-extrabold lg:text-3xl'>GOVERNMENT COLLEGE OF ENGINEERING ERODE</h1>
@@ -31,39 +31,39 @@ function Home() {
          </div>
 
         
-      </div>
+      </div> */}
 
      
       
-      <div className="p-5">
+      {/* <div className="p-5">
         <div className="p-6 mt-16 lg:mt-32   lg:w-[85vw] mx-auto lg:p-1 ">
         <h1 className='text-3xl lg:text-5xl  font-extrabold text-center'>About Symposium</h1>
         <p className='text-lg lg:text-2xl mt-5 text-center font-extrabold'>Join us for <b>Zinnia</b>, an exciting symposium designed to inspire innovation, collaboration, and growth in computer science and engineering. This unique event unites students, faculty, and industry professionals, offering a platform for aspiring engineers to present their ideas and engage in knowledge-sharing. Zinnia aims to promotes a collaborative environment where participants from various academic levels can explore emerging technologies and discover new possibilities</p>
       </div> 
-      </div>
+      </div> */}
        
 
-      <div className='flex flex-col items-center justify-center mt-32 h-[40vh]'>
+      {/* <div className='flex flex-col items-center justify-center mt-32 h-[40vh]'>
           <CardCarousel/>
-        </div>
+        </div> */}
 
       {/* event Details */}
-      <div className="mt-32 lg:mt-28 ">
+      {/* <div className="mt-32 lg:mt-28 ">
       <Buttons/>
-    </div>
+    </div> */}
 
 
       {/* about clg */}
-      <div className="p-5">
+      {/* <div className="p-5">
         <div className="p-5 mt-24  lg:w-[85vw] mx-auto lg:p-10 ">
         <h1 className='text-3xl lg:text-5xl  font-bold text-center  '>About Our College</h1>
         <p className='text-lg lg:text-2xl mt-5 font-extrabold'>Government College of Engineering, Erode (GCE Erode), established in 1984, is a leading engineering institution in Tamil Nadu, India. <b>Affiliated with Anna University</b> , it offers a conducive learning environment on a <b>200-acre campus</b>. Known for its excellent infrastructure and qualified faculty, GCE Erode emphasizes research and boasts a strong record of student placements. It also serves as the <b>Zonal Headquarters</b> for <b>Zone-XI of Anna University</b>, overseeing engineering colleges in the region.</p>
       </div>
-      </div>
+      </div> */}
 
 
       {/* Contact Section */}
-      <div className="bg-black p-5 flex flex-col items-center justify-center">
+      {/* <div className="bg-black p-5 flex flex-col items-center justify-center">
         <h1 className='text-3xl text-white text-center font-black'>Contact Us</h1>
 
         <div className="flex gap-3 mt-7 items-center">
@@ -87,7 +87,7 @@ function Home() {
         </div>
         </div>
 
-      </div>
+      </div> */}
     </div>
   )
 }

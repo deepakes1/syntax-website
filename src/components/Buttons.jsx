@@ -69,9 +69,11 @@ export default function Buttons() {
 
         <motion.div variants={buttonVariants}>
           <motion.div animate={rotateAnimation}>
-            <Button className="w-40 h-16 text-lg font-semibold bg-black hover:bg-green-600 text-white">
-              FAQ
+            <Link to= "/Faq">
+              <Button className="w-40 h-16 text-lg font-semibold bg-black hover:bg-yellow-600 text-white">
+                FAQ
             </Button>
+            </Link>
           </motion.div>
         </motion.div>
       </motion.div>

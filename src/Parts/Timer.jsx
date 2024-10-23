@@ -8,7 +8,7 @@ function Timer() {
     seconds: 0,
   });
 
-  const targetDate = new Date("November 7, 2024 00:00:00");
+  const targetDate = new Date("November 5, 2024 00:00:00");
 
   useEffect(() => {
     const intervalId = setInterval(() => {

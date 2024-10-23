@@ -91,7 +91,59 @@ body {
   align-items: center;
 }
 
+@media (max-width: 768px) {
+  .faq-section {
+  width: 50%;
+  margin: 40px auto;
+}
+}
+
+.faq-section {
+  width: 80%;
+  margin: 0px auto;
+}
+
+.faq-question {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: black ;
+  color: white;
+}
+
+.faq-question h2 {
+  margin-top: 0;
+  cursor: pointer;
+}
+
+
+.svg {
+  background-color: white;
+}
+.faq-answer {
+  padding: 20px;
+  background-color: rgb(24, 211, 148);
+  color: black;
+
+}
+
+.faq-answer p {
+  margin-bottom: 20px;
+}
 
 
 
+.slide {
+  animation: slide 0.3s ease-in-out;
+}
 
+@keyframes slide {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+}
