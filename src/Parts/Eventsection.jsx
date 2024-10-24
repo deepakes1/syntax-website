@@ -24,7 +24,7 @@ function Eventsection() {
     <div className="mt-32 rounded-xl md:flex gap-5 mx-auto  justify-center h-[70%] items-center w-[80vw]">
         
       <Link to = "/events/tech" >
-        <div className="cards p-5 mt-7 md:mt-0  shadow-xl bg-[#eeeee4] rounded-xl  w-[300px] flex flex-col justify-center items-center mx-auto">
+        <div className="cards p-5 mt-2 md:mt-0  shadow-xl bg-[#eeeee4] rounded-xl  w-[300px] flex flex-col justify-center items-center mx-auto">
         <div className="">
           <img src={tech} className='h-56 w-56 object-contain rounded-xl' alt="" />
         </div>
@@ -48,7 +48,7 @@ function Eventsection() {
       </Link>
 
       <Link to = "/Hackathon">
-        <div className="cards p-5 mt-7 md:mt-0  shadow-xl bg-[#eeeee4] rounded-xl  w-[300px] flex flex-col justify-center items-center mx-auto">
+        <div className="cards p-5 mb-10 mt-7 md:mt-0  shadow-xl bg-[#eeeee4] rounded-xl  w-[300px] flex flex-col justify-center items-center mx-auto">
         <div className="">
           <img src={hackathon} className='h-56 w-56 object-contain rounded-xl' alt="" />
         </div>
