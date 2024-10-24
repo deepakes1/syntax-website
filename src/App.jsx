@@ -24,6 +24,7 @@ import Timer2 from './Parts/Timer2';
 
 
 import TechList from './Parts/TechList';
+import NontechList from './Parts/NontechList';
 function App() {
       
   return (
@@ -48,7 +49,7 @@ function App() {
         <Route path='/events/tech/Paper-Presentation' element = {<PaperPresentation/>}/>
         <Route path='/events/tech/Mystery-Sql' element = {<Sql/>}/>
         <Route path='/events/tech/Technical-Game' element = {<TechnicalGame/>}/>
-        <Route path='/events/non-tech/Videography' element = {<Videography/>}/>
+        <Route path='/events/non-tech/Video-Editing' element = {<Videography/>}/>
         <Route path='/events/non-tech/PosterDesign' element = {<PosterDesign/>}/>
         <Route path='/events/non-tech/Connection' element = {<Connection/>}/>
         <Route path='/events/non-tech/MarbleShowDown' element = {<MarbleShowDown/>}/>
@@ -58,6 +59,7 @@ function App() {
         <Route path='/Faq' element = {<Faq/>}/>
         <Route path='/events/non-tech/Memecreation' element = {<Memecreation/>}/>
         <Route path='/events/tech' element = {<TechList/>}/>
+        <Route path='/events/NontechList' element = {<NontechList/>}/>
       </Routes>
 
     </>

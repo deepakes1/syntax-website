@@ -155,7 +155,7 @@ const Home = () => {
     <div>
       {/* Heading Section */}
       <div id="heading" ref={el => sectionsRef.current[0] = el} className={`p-5 h-[80vh] md:h-[70vh] transition-opacity duration-1000 ${visibleSections.heading ? 'opacity-100' : 'opacity-0'}`}>
-        <div className="heading mt-16">
+        <div className="heading mt-32">
           <div className="second-color text-center md:flex flex-col items-center justify-center">
             <h1 className='text-3xl font-extrabold lg:text-3xl'>GOVERNMENT COLLEGE OF ENGINEERING ERODE</h1>
             <h1 className='text-2xl font-bold lg:text-xl mt-2'>DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING</h1>
@@ -164,32 +164,32 @@ const Home = () => {
               <img src={zinnia} className='h-full w-[80vw] md:w-[50vw] scale-125 md:scale-100 object-cover' alt="" />
             </div>
           </div>
-          <div className="mt-16 mb-10">
+          <div className="mt-16 mb-52">
             <Timer />
           </div>
         </div>
       </div>
 
       {/* Poster Section */}
-     <div id="poster" ref={el => sectionsRef.current[1] = el}  className={`mt-32 lg:mt-48 p-5 transition-opacity duration-1000 ${visibleSections.poster ? 'opacity-100' : 'opacity-0'} overflow-hidden`}>
+     <div id="poster" ref={el => sectionsRef.current[1] = el}  className={`mt-32 lg:mt-56  p-5 transition-opacity duration-1000 ${visibleSections.poster ? 'opacity-100' : 'opacity-0'} overflow-hidden`}>
       <img src={poster} className='h-full lg:h-[80vh] w-full object-contain rounded-3xl ' alt="" />
     </div>
 
 
       {/* About Symposium Section */}
       <div id="about" ref={el => sectionsRef.current[2] = el} className={`p-5 transition-opacity duration-1000 ${visibleSections.about ? 'opacity-100' : 'opacity-0'}`}>
-        <div className="p-6 mt-16 lg:mt-32 lg:w-[85vw] mx-auto lg:p-1">
+        <div className="p-6 mt-16 lg:mt-24 lg:w-[85vw] mx-auto lg:p-1">
           <h1 className='text-3xl lg:text-5xl font-extrabold text-center'>About Symposium</h1>
            <p className='text-lg lg:text-2xl mt-5 text-center font-extrabold'>Join us for <b>Zinnia</b>, an exciting symposium designed to inspire innovation, collaboration, and growth in computer science and engineering. This unique event unites students, faculty, and industry professionals, offering a platform for aspiring engineers to present their ideas and engage in knowledge-sharing. Zinnia aims to promotes a collaborative environment where participants from various academic levels can explore emerging technologies and discover new possibilities</p>
         </div>
       </div>
 
       {/* Carousel Section */}
-      <div id="carousel" ref={el => sectionsRef.current[3] = el} className={`flex flex-col items-center justify-center mt-32 h-[40vh] transition-opacity duration-1000 ${visibleSections.carousel ? 'opacity-100' : 'opacity-0'}`}>
+      <div id="carousel" ref={el => sectionsRef.current[3] = el} className={`flex flex-col items-center justify-center mt-11  lg:mt-32 h-[40vh] transition-opacity duration-1000 ${visibleSections.carousel ? 'opacity-100' : 'opacity-0'}`}>
         <CardCarousel />
       </div>
 
-       <div className="mt-32 lg:mt-28 ">
+       <div className="mt-28 lg:mt-28 ">
         <Buttons/>
       </div> 
 
