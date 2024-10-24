@@ -3,7 +3,7 @@ import whatsapp from "../../assets/whatsapp.png"
 function MarbleShowDown() {
   return (
     <div>
-      <div className="m-5 lg:w-[80vw] lg:mx-auto font-semibold">
+      <div className="m-5 mt-16 lg:w-[80vw] lg:mx-auto font-semibold">
         <div className='p-5' >
             <h2 className="text-center text-black text-3xl lg:text-4xl font-bold">The Marble ShowDown</h2>
 

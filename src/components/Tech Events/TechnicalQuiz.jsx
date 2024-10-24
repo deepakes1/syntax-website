@@ -4,7 +4,7 @@ import whatsapp from "../../assets/whatsapp.png"
 function TechnicalQuiz() {
   return (
     <div>
-       <div className="m-5 lg:w-[80vw] lg:mx-auto font-semibold">
+       <div className="m-5 mt-16 lg:w-[80vw] lg:mx-auto font-semibold">
         <div className='p-5' >
             <h2 className="text-center text-black text-3xl lg:text-4xl font-bold">Technical Quiz</h2>
 

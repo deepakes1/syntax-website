@@ -3,9 +3,9 @@ import whatsapp from "../../assets/whatsapp.png"
 function Videography() {
   return (
     <div>
-      <div className="m-5 lg:w-[80vw] lg:mx-auto font-semibold">
+      <div className="m-5 mt-16 lg:w-[80vw] lg:mx-auto font-semibold">
         <div className='p-5' >
-            <h2 className="text-center text-black text-3xl lg:text-4xl font-bold">Videography</h2>
+            <h2 className="text-center text-black text-3xl lg:text-4xl font-bold">Video Editing</h2>
 
             <p className='text-2xl lg:text-2xl mt-5 mb-2 font-bold'>General Rules :</p>
 
@@ -13,12 +13,14 @@ function Videography() {
                 <li><span className='font-extrabold'>Only engineering college students are allowed </span></li>
                 <li><span className='font-extrabold'>The participant must have their respective college ID cards. </span></li>
                 <li><span className='font-extrabold'>Only registered students must participate.</span></li>
-                <li><span className='font-extrabold'>The Video should be taken only in Android Mobile phone and the use of cameras and iphones are strictly prohibited.</span> </li>
-                <li><span className='font-extrabold'>The Video should be taken within the campus.</span></li>
-                <li><span className='font-extrabold'>Any form of editing tools is allowed and use of ai tools in editing is strictly prohibited.</span></li>
-                <li><span className='font-extrabold'>The durations of the video should be within 30 to 45 seconds</span></li>
-                <li><span className='font-extrabold'>Video evaluation is based on creativity, composition and editing.</span></li>
-                <li><span className='font-extrabold'>Participation certificate will be provided to all the  participants.</span></li>
+                <li><span className='font-extrabold'>The use of AI tool in Editing is Strictly Prohibited.</span></li>
+                <li><span className='font-extrabold'>Editing should be done on-site within the campus.</span></li>
+                <li><span className='font-extrabold'>We will provide the video on the day of the event.</span></li>
+                <li><span className='font-extrabold'>Editing software’s such as After Effects, Premium pro is allowed for laptops & all editing software’s for mobile is permitted.</span></li>
+                <li><span className='font-extrabold'>The duration of the edited video should be within 30 seconds.</span></li>
+                <li><span className='font-extrabold'>Editing time starts at 11:30 AM and deadline for submission is 1:30 PM.</span></li>
+                <li><span className='font-extrabold'>Video Evaluation is based on creativity and editing.</span></li>
+                <li><span className='font-extrabold'>Participation Certificate will be provided to all Participants. </span></li>
 
             </ul>
 
@@ -36,7 +38,7 @@ function Videography() {
                 </div>
             </div>
         </div>
-        </div>
+      </div>
     </div>
   )
 }

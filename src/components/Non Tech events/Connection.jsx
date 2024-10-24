@@ -3,7 +3,7 @@ import whatsapp from "../../assets/whatsapp.png"
 function Connection() {
   return (
     <div>
-      <div className="m-5 lg:w-[80vw] lg:mx-auto font-semibold">
+      <div className="m-5 mt-16 lg:w-[80vw] lg:mx-auto font-semibold">
         <div className='p-5' >
             <h2 className="text-center text-black text-3xl lg:text-4xl font-bold">Connection</h2>
 
@@ -15,7 +15,6 @@ function Connection() {
                 <li><span className='font-extrabold'>Only registered students must participate.</span></li>
                 <li><span className='font-extrabold'>Each team consist of 2 members.</span> </li>
                 <li><span className='font-extrabold'>Participants must find the answer by seeing the connected images.</span></li>
-                <li><span className='font-extrabold'>There is a negative marks in final round.</span></li>
                 <li><span className='font-extrabold'>The decision made by the committee will be final.</span></li>
                 <li><span className='font-extrabold'>Certificates will be given to all participants.</span></li>
             </ul>
@@ -25,7 +24,7 @@ function Connection() {
 
             </div>
             <div className="mt-5">
-                <h1 className='text-xl'>For inquiries, please contact our coordinator <b>@Dhinesh S</b> & <b>@Arthi M</b> </h1>
+                <h1 className='text-xl'>For inquiries, please contact our coordinator <b>@Dhinesh S</b> & <b>@Aarthi M</b> </h1>
                 <div className="bg-black text-white inline-block px-4 py-2 mt-2 transition-all hover:bg-red-500 hover:rounded-br-3xl hover:text-black">
                     <a className='flex gap-3  items-center' href='https://wa.me/9486639484'>
                         <img src={whatsapp} className='h-7 w-7 object-cover' alt="" />

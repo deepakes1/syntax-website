@@ -5,7 +5,7 @@ function Contact() {
 
     <>
     
-    <div className="w-screen ">
+    <div className="w-full mt-24 overflow-hidden">
     <h1 className='text-3xl font-bold text-center mt-7'>For assistance, Contact our Coordinators</h1>
         <div className="flex mt-5 flex-col justify-center items-center">
         <table style={{ border: "1px solid black", borderCollapse: "collapse", width: "80%" }}>
@@ -36,10 +36,7 @@ function Contact() {
                     <td style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px", fontWeight: "bold" }}>Raghul M (Paper Presentation Coordinator)</td>
                     <td style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px" , fontWeight: "bold"}}>8870142189</td>
                 </tr>
-                <tr>
-                    <td style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px", fontWeight: "bold" }}>Deepak E S (Project Presentation Coordinator)</td>
-                    <td style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px" , fontWeight: "bold"}}>9944505576</td>
-                </tr>
+                
                 <tr>
                     <td style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px", fontWeight: "bold" }}>Dakshin Srinivas (Mystery SQL Coordinator)</td>
                     <td style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px" , fontWeight: "bold"}}>9360145819</td>
@@ -49,11 +46,11 @@ function Contact() {
                     <td style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px" , fontWeight: "bold"}}>9514500971</td>
                 </tr>
                 <tr>
-                    <td style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px", fontWeight: "bold" }}>Abishek (Photography Coordinator)</td>
+                    <td style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px", fontWeight: "bold" }}>Abishek (Meme Creation Coordinator)</td>
                     <td style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px" , fontWeight: "bold"}}>9361475870</td>
                 </tr>
                 <tr>
-                    <td style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px", fontWeight: "bold" }}>Kiruthikroshan (Videography Coordinator)</td>
+                    <td style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px", fontWeight: "bold" }}>Kiruthikroshan (Video-Editing Coordinator)</td>
                     <td style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px" , fontWeight: "bold"}}>8883990739</td>
                 </tr>
                 <tr>
@@ -68,10 +65,7 @@ function Contact() {
                     <td style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px", fontWeight: "bold" }}>Sriram B S (Marble Showdown Coordinator)</td>
                     <td style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px" , fontWeight: "bold"}}>8838206664</td>
                 </tr>
-                <tr>
-                    <td style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px", fontWeight: "bold" }}>Lokeshwaran (Flip The Bottle Coordinator)</td>
-                    <td style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px" , fontWeight: "bold"}}>9361225923</td>
-                </tr>
+               
                 <tr>
                     <td style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px", fontWeight: "bold" }}>Sudhakar S (Hackthon Coordinator)</td>
                     <td style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px" , fontWeight: "bold"}}>6382654779</td>
@@ -214,24 +208,6 @@ function Contact() {
 
       <div className="flex flex-col md:flex-row mt-5 gap-5 justify-center">
 
-        <div className="shadow-2xl p-5 text-xl border border-black md:rounded-tr-3xl md:rounded-bl-3xl font-bold text-center mx-auto w-[90vw] md:w-[25vw]">
-          <h1>Deepak E S</h1>
-          <h1>Vice : Rithvik R</h1>
-          <h1>(Project Presentation Coordinator)</h1>
-        </div>
-
-        <div className="shadow-2xl mt-1 border border-black md:rounded-tr-3xl md:rounded-bl-3xl md:mt-0">
-          <div className="text-xl p-5 font-bold text-center w-[90vw] md:w-[25vw]">
-            <h1>Varshini G</h1>
-            <h1>Vice : Dharsha T S</h1>
-            <h1>(Project Presentation Coordinator)</h1>
-          </div>
-        </div>
-
-      </div>
-
-      <div className="flex flex-col md:flex-row mt-5 gap-5 justify-center">
-
         <div className="shadow-2xl border border-black md:rounded-tr-3xl md:rounded-bl-3xl p-5 text-xl font-bold text-center mx-auto w-[90vw] md:w-[25vw]">
           <h1>Dakshin Srinivas M S</h1>
           <h1>Vice : Mohan Prasand R</h1>
@@ -271,14 +247,14 @@ function Contact() {
         <div className="shadow-2xl p-5 text-xl border border-black md:rounded-tr-3xl md:rounded-bl-3xl font-bold text-center mx-auto w-[90vw] md:w-[25vw]">
           <h1>Abishek N</h1>
           <h1>Vice : Sivasuriyan K</h1>
-          <h1>(Photography)</h1>
+          <h1>(Meme Creation Coordinators)</h1>
         </div>
 
         <div className="shadow-2xl border border-black md:rounded-tr-3xl md:rounded-bl-3xl mt-1 md:mt-0">
           <div className="text-xl p-5 font-bold text-center w-[90vw] md:w-[25vw]">
             <h1>Asma L</h1>
             <h1>Vice : Afrin Fathima M</h1>
-            <h1>(Photography)</h1>
+            <h1>(Meme Creation Coordinators)</h1>
           </div>
         </div>
 
@@ -307,14 +283,14 @@ function Contact() {
         <div className="shadow-2xl p-5 text-xl border border-black md:rounded-tr-3xl md:rounded-bl-3xl font-bold text-center mx-auto w-[90vw] md:w-[25vw]">
           <h1>Kiruthickroshan M</h1>
           <h1>Vice : Mohamed Mushraf H</h1>
-          <h1>( Videography)</h1>
+          <h1>(Video-Editing Coordinator)</h1>
         </div>
 
         <div className="shadow-2xl border border-black md:rounded-tr-3xl md:rounded-bl-3xl mt-1 md:mt-0">
           <div className="text-xl p-5 font-bold text-center w-[90vw] md:w-[25vw]">
             <h1>Bhuvanasri G K</h1>
             <h1>Vice : Abirami R</h1>
-            <h1>(Videography Coordinator)</h1>
+            <h1>(Video-Editing Coordinator)</h1>
           </div>
         </div>
 
@@ -356,23 +332,7 @@ function Contact() {
 
       </div>
 
-      <div className="flex flex-col md:flex-row mt-5 gap-5 justify-center">
-
-        <div className="shadow-2xl p-5 text-xl font-bold border border-black md:rounded-tr-3xl md:rounded-bl-3xl text-center mx-auto w-[90vw] md:w-[25vw]">
-          <h1> Lokeshwaran M</h1>
-          <h1>Vice : Hariharan S K</h1>
-          <h1>(Flip Bottle Coordinator)</h1>
-        </div>
-
-        <div className="shadow-2xl mt-1  border border-black md:rounded-tr-3xl md:rounded-bl-3xl md:mt-0">
-          <div className="text-xl p-5 font-bold text-center w-[90vw] md:w-[25vw]">
-            <h1>Kalpana Chawla M</h1>
-            <h1>Vice : Abhishree D</h1>
-            <h1>(Flip Bottle Coordinator)</h1>
-          </div>
-        </div>
-
-      </div>
+      
 
       <div className="flex flex-col md:flex-row mt-5 gap-5 mb-10 justify-center">
 

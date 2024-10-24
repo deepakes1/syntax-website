@@ -1,34 +1,101 @@
-import React from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import Carousel from '../Parts/Carousel';
+
 const About = () => {
+    const [visibleSections, setVisibleSections] = useState({
+        intro: false,
+        courses: false,
+        vision: false,
+        message: false,
+        goals: false,
+        objectives: false,
+    });
+
+    const sectionsRef = useRef([]);
+
+    const handleScroll = (entries) => {
+        entries.forEach(entry => {
+            // Set visibility based on intersection status
+            setVisibleSections(prev => ({
+                ...prev,
+                [entry.target.id]: entry.isIntersecting,
+            }));
+        });
+    };
+
+    useEffect(() => {
+        const observer = new IntersectionObserver(handleScroll, {
+            threshold: 0.1, // Adjust this for how much of the section should be visible
+        });
+
+        sectionsRef.current.forEach(section => {
+            if (section) observer.observe(section);
+        });
+
+        return () => {
+            sectionsRef.current.forEach(section => {
+                if (section) observer.unobserve(section);
+            });
+        };
+    }, []);
+
     return (
         <>
+        <div className="mt-16 lg:mt-20 p-5">
             <Carousel/>
 
-            <div className="college-info-container p-5">
-            <h1 className="text-2xl md:text-4xl font-bold mb-4">Government College of Engineering, Erode</h1>
-            <p className='text-xl md:text-2xl font-semibold'>
-                The Government College of Engineering in Erode, formerly known as Institute of Road and Transport Technology (IRTT), is a premier government engineering college affiliated with Anna University in Chennai. Established in 1984, it is located on a 200-acre lush green campus between Chithode and Bhavani in the Erode district, providing a conducive atmosphere for technical education.
-            </p>
-            
-            <h2 className="text-xl md:text-3xl font-semibold mt-4 mb-3">Courses Offered</h2>
-            <p  className='text-xl md:text-2xl font-semibold'>
-                The college offers various undergraduate and postgraduate courses, including Computer Science and Engineering, with well-equipped laboratories, a library, and highly qualified faculty members. The Computer Science department is particularly notable, with its focus on producing quality professionals to meet the industry's evolving needs.
-            </p>
-            
-            <h3 className="text-2xl md:text-3xl font-semibold mt-4">Department of Computer Science and Engineering Highlights:</h3>
-            <ul className="list-disc list-inside ml-5 text-lg md:text-xl font-bold mb-4">
-                <li className='mt-3'>State-of-the-art laboratories: CSE Lab-1, CSE Lab-2 providing hands-on experience with the latest technologies.</li>
-                <li>Digital library: Access to digital contents for better understanding of theoretical concepts.</li>
-                <li>Research activities: Faculty members are involved in research projects, ensuring students are exposed to cutting-edge technologies.</li>
-                <li>Industry collaborations: Partnerships with leading IT organizations, enabling students to gain practical insights.</li>
-                <li>Placement opportunities: Students have been placed in reputable companies like TCS, CTS, and Capgemini.</li>
-            </ul>
+            <div className={`college-info-container p-5`}>
 
-            <h3 className="text-xl md:text-3xl font-semibold mt-4 mb-3">Faculty and Staff:</h3>
-            <p className='text-xl md:text-2xl font-semibold'>
-                The Computer Science department is led by Dr. A. Saradha, with a team of experienced professors, associate professors, and assistant professors. The faculty members have specialized areas of expertise, including Semantic Web, Neural Networks, and Software Engineering.
-            </p>
+                <div id="intro" ref={el => sectionsRef.current[0] = el} className={`section ${visibleSections.intro ? 'visible' : ''}`}>
+                    <h1 className="text-2xl md:text-4xl mt-5 font-extrabold mb-4">Government College of Engineering, Erode</h1>
+                    <p className='text-xl md:text-2xl font-semibold'>
+                        The college was established in <span className='font-extrabold'>1984</span> under Institute of Road and Transport by the Tamil Nadu State Transport Corporation. In 2021, the college was transferred to under the governance of Directorate of Technical Education (DoTE) and subsequently renamed as Government College of Engineering, Erode. It is a premier Government Engineering College <span className='font-extrabold'>affiliated to Anna University, Chennai</span>. The Institute is located on a sprawling lush green campus of 200 acres between Chithode and Bhavani in Erode district. It provides a congenial atmosphere for Technical Education. The Institute has excellent infrastructure, well-equipped laboratories, library and highly qualified & experienced faculty members. The Institute is well known for its technical excellence, modern facilities, research activities, good academic performance track record and more placements with high salary package. This Institute is functioning as the Zonal Headquarters for Zone-XI (Erode Zone) of Anna University monitoring the Engineering colleges affiliated to Anna University in Erode district and part of Namakkal, Tiruppur and Salem districts.
+                    </p>
+                </div>
+
+                <div id="courses" ref={el => sectionsRef.current[1] = el} className={`section ${visibleSections.courses ? 'visible' : ''}`}>
+                    <h2 className="text-2xl md:text-4xl font-extrabold mb-4 mt-5">Our Mission</h2>
+                    <p className='text-xl md:text-2xl font-semibold'>
+                       Our mission at Government College of Engineering, Erode is to deliver quality engineering education, drive research and innovation, promote entrepreneurship, and shape students into responsible, socially aware leaders dedicated to national progress.
+                    </p>
+                </div>
+
+                <div id="vision" ref={el => sectionsRef.current[2] = el} className={`section ${visibleSections.vision ? 'visible' : ''}`}>
+                    <h2 className="text-2xl md:text-4xl font-extrabold mb-4 mt-5">Our Vision</h2>
+                    <p className='text-xl md:text-2xl font-semibold'>
+                        We aim to inspire young minds through value-based education, fostering knowledge, skills, character, and innovation to cultivate leaders and professionals who contribute to global society.
+                    </p>
+                </div>
+
+                <div id="message" ref={el => sectionsRef.current[3] = el} className={`section ${visibleSections.message ? 'visible' : ''}`}>
+                    <h2 className="text-2xl md:text-4xl font-extrabold mb-4 mt-5">Principle Message</h2>
+                    <p className='text-xl md:text-2xl font-semibold'>
+                       A warm welcome to all the aspiring engineers joining Government College of Engineering, Erode (formerly IRTT). With the support of our highly qualified and dedicated faculty, we are committed to shaping our students into industry-ready professionals.
+                            We view students, parents, and society as key stakeholders, and our goal is to ensure their satisfaction. At our college, discipline is a top priority. Regular tests and exams are conducted to ensure strong performance in university assessments. We also have an active Training and Placement Cell dedicated to securing placements for all students. Equal importance is given to extracurricular and co-curricular activities.
+                            With excellent infrastructure and a conducive learning environment, we are confident that students will have a fulfilling and enriching four years of study. Together, we strive to nurture future leaders—scientists, engineers, entrepreneurs, managers, and researchers—through quality education.
+                    </p>
+                </div>
+
+                <div id="goals" ref={el => sectionsRef.current[4] = el} className={`section ${visibleSections.goals ? 'visible' : ''}`}>
+                    <h2 className="text-2xl md:text-4xl font-extrabold mb-4 mt-5">Goals</h2>
+                    <ul className='text-xl md:text-2xl font-semibold'>
+                        <li>To strengthen students' learning abilities by improving both their technical and soft skills.</li>
+                        <li>To establish an effective system that encourages students to develop professional and entrepreneurial skills with a focus on social and environmental significance.</li>
+                        <li>To foster a research-oriented mindset among students to tackle national and global challenges.</li>
+                    </ul>
+                </div>
+
+                <div id="objectives" ref={el => sectionsRef.current[5] = el} className={`section ${visibleSections.objectives ? 'visible' : ''}`}>
+                    <h2 className="text-2xl md:text-4xl font-extrabold mb-4 mt-5">Objectives</h2>
+                    <ul style={{listStyleType : "disc"}} className='text-xl md:text-2xl font-semibold'>
+                        <li>To provide quality education and instill universal human values in students.</li>
+                        <li>To promote self-learning and independent skill development.</li>
+                        <li>To collaborate with national and international industries to prepare students for the workforce.</li>
+                        <li>To foster research skills in students to address environmental, social, and economic challenges.</li>
+                    </ul>
+                </div>
+
+            </div>
         </div>
         </>
     );

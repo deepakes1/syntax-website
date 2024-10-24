@@ -44,11 +44,9 @@ const Dropdown2 = () => {
         className="absolute left-1/2 transform -translate-x-1/2 z-10 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 overflow-hidden"
       >
         <div className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
-          <Link to="/events/non-tech/Photography" className="block px-4 py-2 text-lg text-black hover:bg-gray-100" role="menuitem">
-            Photography
-          </Link>
+          
           <Link to="/events/non-tech/Videography" className="block px-4 py-2 text-lg text-black hover:bg-gray-100" role="menuitem">
-            Videography
+            Video-Editing
           </Link>
           <Link to="/events/non-tech/PosterDesign"  className="block px-4 py-2 text-lg text-black hover:bg-gray-100" role="menuitem">
             Poster Design
@@ -59,8 +57,8 @@ const Dropdown2 = () => {
           <Link to="/events/non-tech/MarbleShowDown"  className="block px-4 py-2 text-lg text-black hover:bg-gray-100" role="menuitem">
             The Marble Showdown
           </Link>
-          <Link to="/events/non-tech/Flipbottle"  className="block px-4 py-2 text-lg text-black hover:bg-gray-100" role="menuitem">
-            Flip the Bottle
+          <Link to="/events/non-tech/Memecreation"  className="block px-4 py-2 text-lg text-black hover:bg-gray-100" role="menuitem">
+            Meme Creation
           </Link>
         </div>
       </motion.div>

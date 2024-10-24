@@ -43,8 +43,8 @@ const Dropdown = () => {
         variants={dropdownVariants}
         className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 w-56 rounded-md shadow-lg  bg-white ring-1 ring-black ring-opacity-5 overflow-hidden"
       >
-        <div className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
-          <Link to = "/events/tech/coding" className="block px-4 py-2 text-lg text-black hover:bg-gray-100" role="menuitem">
+        <div className="py-1 " role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
+          <Link to = "/events/tech/coding" className="block px-4  py-2 text-lg text-black hover:bg-gray-100" role="menuitem">
             Coding
           </Link>
           <Link to = "/events/tech/Tecnical-Quiz" className="block px-4 py-2 text-lg text-black hover:bg-gray-100" role="menuitem">
@@ -53,9 +53,7 @@ const Dropdown = () => {
           <Link to="/events/tech/Paper-Presentation"  className="block px-4 py-2 text-lg text-black hover:bg-gray-100" role="menuitem">
             Paper Presentation
           </Link>
-          <Link to="/events/tech/Project-Expo"  className="block px-4 py-2 text-lg text-black hover:bg-gray-100" role="menuitem">
-            Project Expo
-          </Link>
+          
           <Link to="/events/tech/Mystery-Sql"  className="block px-4 py-2 text-lg text-black hover:bg-gray-100" role="menuitem">
             Mystery SQL
           </Link>

@@ -10,6 +10,12 @@ import img4 from "../assets/paperpresentationfinal.png";
 import img5 from "../assets/Technicalquizfinal.png";
 import img6 from "../assets/Techxcelerate.png";
 
+import nontech1 from "../assets/Visual Design.png"
+import nontech2 from "../assets/clip craft.png"
+import nontech3 from "../assets/linktopia.png"
+import nontech4 from "../assets/Meme creation.png"
+import nontech5 from "../assets/sphere clash.png"
+
 const CardCarousel = () => {
   const settings = {
     dots: true,
@@ -45,7 +51,12 @@ const CardCarousel = () => {
     img3,
     img4,
     img5,
-    img6
+    img6,
+    nontech1,
+    nontech2,
+    nontech3,
+    nontech4,
+    nontech5
   ];
 
   const texts = [
@@ -55,6 +66,11 @@ const CardCarousel = () => {
     'This is the 4content on the back!',
     'This is the 5content on the back!',
     'This is the 6content on the back!',
+    'This is the 1content on the back!',
+    'This is the 2content on the back!',
+    'This is the 3content on the back!',
+    'This is the 4content on the back!',
+    'This is the 5content on the back!',
   ];
 
   // Using the same images for the text section
