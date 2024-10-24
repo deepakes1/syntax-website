@@ -11,7 +11,8 @@ import img5 from '../assets/Visual Design.png';
 function NontechList() {
   return (
     <div>
-      <div className="mt-32">
+      <div className="mt-32 p-7">
+      <h1 className='text-4xl font-extrabold text-center mb-7'>Non-Technical Events</h1>
       <div className="flex flex-wrap justify-center gap-10 w-[80vw] mx-auto">
         
         {/* Technical Events Card */}

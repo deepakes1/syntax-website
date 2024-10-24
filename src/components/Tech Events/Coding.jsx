@@ -1,11 +1,10 @@
 import React from 'react';
 import whatsapp from "../../assets/whatsapp.png";
 import { Link } from 'react-router-dom';
-import '../../App.css'; // Ensure your CSS file is imported
-
+import '../../App.css'; 
 function Coding() {
   return (
-    <div className="m-5 mt-16 lg:w-[80vw] lg:mx-auto font-semibold">
+    <div className="m-5 mt-20 lg:w-[80vw] lg:mx-auto font-semibold">
       <div className="flex items-center justify-end mb-4">
         <Link to="/events/tech" className="
           flex items-center 

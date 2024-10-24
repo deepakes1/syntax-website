@@ -153,9 +153,11 @@ const Home = () => {
 
   return (
     <div>
+    
       {/* Heading Section */}
       <div id="heading" ref={el => sectionsRef.current[0] = el} className={`p-5 h-[80vh] md:h-[70vh] transition-opacity duration-1000 ${visibleSections.heading ? 'opacity-100' : 'opacity-0'}`}>
         <div className="heading mt-32">
+
           <div className="second-color text-center md:flex flex-col items-center justify-center">
             <h1 className='text-3xl font-extrabold lg:text-3xl'>GOVERNMENT COLLEGE OF ENGINEERING ERODE</h1>
             <h1 className='text-2xl font-bold lg:text-xl mt-2'>DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING</h1>
@@ -211,25 +213,32 @@ const Home = () => {
         <h1 className='text-3xl text-white text-center font-black'>Contact Us</h1>
 
         <div className="flex gap-3 mt-7 items-center">
-          <div className="">
-            <a href="https://wa.me/9944505576">
-              <img src={whatsapp} className='h-14 w-14 object-cover' alt="WhatsApp" />
+          <div className="flex gap-4 items-center">
+            <a href="https://wa.me/9360085024">
+              <img src={whatsapp} className='h-8 w-8 object-cover' alt="WhatsApp" />
             </a>
+
+           <a href="https://wa.me/9360085024" className='text-white text-lg'>9360085024</a>
+            
           </div>
-          <div className="">
+
+          <div className="flex gap-4 items-center">
             <a href="https://www.instagram.com/gce._.zinnia?igsh=MTVidmhrN2xzOHoweA==">
               <img src={instalogo} className='h-14 w-14 object-cover' alt="Instagram" />
             </a>
+            <a href="https://www.instagram.com/gce._.zinnia?igsh=MTVidmhrN2xzOHoweA==" className='text-white text-lg'>gce._.zinnia</a>
           </div>
          <div>
-  <button 
-    onClick={() => window.location.href = 'mailto:gcezinnia@gmail.com'} 
-    className="p-0 bg-transparent border-0"
-    aria-label="Email"
-  >
-    <img src={maillogo} className="h-14 w-14 object-cover" alt="Email icon" />
-  </button>
-</div>
+
+         <div className="flex gap-4 items-center">
+            <a href="mailto:gcezinnia@gmail.com">
+              <img src={maillogo} className='h-14 w-14 object-cover' alt="Instagram" />
+            </a>
+            <a href="mailto:gcezinnia@gmail.com" className='text-white text-lg'>gcezinnia@gmail.com</a>
+          </div>
+         <div></div>
+
+        </div>
 
 
 
