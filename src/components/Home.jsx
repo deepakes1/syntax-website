@@ -212,7 +212,7 @@ const Home = () => {
       <div id="contact" ref={el => sectionsRef.current[5] = el} className={`bg-black p-5 flex flex-col items-center justify-center transition-opacity duration-1000 ${visibleSections.contact ? 'opacity-100' : 'opacity-0'}`}>
         <h1 className='text-3xl text-white text-center font-black'>Contact Us</h1>
 
-        <div className="flex gap-3 mt-7 items-center">
+        <div className="flex flex-col md:flex-row gap-5 mt-7 items-center">
           <div className="flex gap-4 items-center">
             <a href="https://wa.me/9360085024">
               <img src={whatsapp} className='h-8 w-8 object-cover' alt="WhatsApp" />
@@ -224,7 +224,7 @@ const Home = () => {
 
           <div className="flex gap-4 items-center">
             <a href="https://www.instagram.com/gce._.zinnia?igsh=MTVidmhrN2xzOHoweA==">
-              <img src={instalogo} className='h-14 w-14 object-cover' alt="Instagram" />
+              <img src={instalogo} className='h-8 w-8 object-cover' alt="Instagram" />
             </a>
             <a href="https://www.instagram.com/gce._.zinnia?igsh=MTVidmhrN2xzOHoweA==" className='text-white text-lg'>gce._.zinnia</a>
           </div>
@@ -232,7 +232,7 @@ const Home = () => {
 
          <div className="flex gap-4 items-center">
             <a href="mailto:gcezinnia@gmail.com">
-              <img src={maillogo} className='h-14 w-14 object-cover' alt="Instagram" />
+              <img src={maillogo} className='h-8 w-8 object-cover' alt="Instagram" />
             </a>
             <a href="mailto:gcezinnia@gmail.com" className='text-white text-lg'>gcezinnia@gmail.com</a>
           </div>

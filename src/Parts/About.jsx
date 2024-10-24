@@ -41,7 +41,7 @@ const About = () => {
 
     return (
         <>
-        <div className="mt-16 lg:mt-20 p-5">
+        <div className="mt-20 lg:mt-20 p-7">
             <Carousel/>
 
             <div className={`college-info-container p-5`}>
@@ -76,9 +76,9 @@ const About = () => {
                     </p>
                 </div>
 
-                <div id="goals" ref={el => sectionsRef.current[4] = el} className={`section rounded-tl-3xl rounded-br-3xl mt-5 p-5 border border-black ${visibleSections.goals ? 'visible' : ''}`}>
+                <div id="goals" ref={el => sectionsRef.current[4] = el} className={`section rounded-tl-3xl rounded-br-3xl mt-5 p-7 border border-black ${visibleSections.goals ? 'visible' : ''}`}>
                     <h2 className="text-2xl md:text-4xl font-extrabold mb-4 mt-5">Goals</h2>
-                    <ul className='text-xl md:text-2xl font-semibold'>
+                    <ul style={{listStyleType : "disc"}} className='text-xl md:text-2xl font-semibold'>
                         <li>To strengthen students' learning abilities by improving both their technical and soft skills.</li>
                         <li>To establish an effective system that encourages students to develop professional and entrepreneurial skills with a focus on social and environmental significance.</li>
                         <li>To foster a research-oriented mindset among students to tackle national and global challenges.</li>
