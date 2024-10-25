@@ -10,12 +10,19 @@ function Hackathon() {
             <p className='text-2xl lg:text-3xl mt-5 underline mb-2 font-bold'>Rules: </p>
 
             <ul style={{listStyleType : "disc"}} className='text-xl' >
-                <li><span className='font-extrabold'>One classroom with proper seating arrangement and maybe increased according to the no. of teams.</span></li>
-                <li><span className='font-extrabold'>Minimum of four junction box for charging since the event lasts for more than 6 hours.</span></li>
-                <li><span className='font-extrabold'>Router and ethernet cable to provide uninterrupted network connection</span></li>
-                <li><span className='font-extrabold'>Six volunteers to supervise the event.</span></li>
-                <li><span className='font-extrabold'>One or two staff members for the judgements.</span></li>
-                <li><span className='font-extrabold'>Minimum 2 laptop with the port for ethernet cable to provide network connection.</span></li>
+                <li><span className='font-extrabold'>Only engineering college students are allowed.</span></li>
+                <li><span className='font-extrabold'>College ID card is mandatory.</span></li>
+                <li><span className='font-extrabold'>The team should contain maximum of 3 members.</span></li>
+                <li><span className='font-extrabold'>Only registered students must participate.</span></li>
+                <li><span className='font-extrabold'>The coding must be done only during the event.</span></li>
+                <li><span className='font-extrabold'>The coding must be done only during the event.</span></li>
+                <li><span className='font-extrabold'>The coding must be done only during the event.</span></li>
+                <li><span className='font-extrabold'>The coding must be done only during the event.</span></li>
+                <li><span className='font-extrabold'>The coding must be done only during the event.</span></li>
+                <li><span className='font-extrabold'>The coding must be done only during the event.</span></li>
+                <li><span className='font-extrabold'>The coding must be done only during the event.</span></li>
+                <li><span className='font-extrabold'>The coding must be done only during the event.</span></li>
+                <li><span className='font-extrabold'>The coding must be done only during the event.</span></li>
             
             </ul>
 

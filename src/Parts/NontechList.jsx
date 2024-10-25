@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import img1 from '../assets/clip craft.png';
@@ -9,8 +9,42 @@ import img5 from '../assets/Visual Design.png';
 
 
 function NontechList() {
+
+   const [visibleSections, setVisibleSections] = useState({
+    instruc: false,
+  });
+
+  const sectionsRef = useRef([]);
+
+  const handleScroll = (entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting && !visibleSections.instruc) {
+        setVisibleSections(prev => ({
+          ...prev,
+          [entry.target.id]: true,
+        }));
+      }
+    });
+  };
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(handleScroll, {
+      threshold: 0.1,
+    });
+
+    sectionsRef.current.forEach(section => {
+      if (section) observer.observe(section);
+    });
+
+    return () => {
+      sectionsRef.current.forEach(section => {
+        if (section) observer.unobserve(section);
+      });
+    };
+  }, []);
+
   return (
-    <div>
+    <div div id="nontech" ref={el => sectionsRef.current[0] = el} className={`p-5 h-[80vh] md:h-[70vh] transition-opacity duration-1000 ${visibleSections.nontech ? 'opacity-100' : 'opacity-0'}`}>
       <div className="mt-32 p-7">
       <h1 className='text-4xl font-extrabold text-center mb-7'>Non-Technical Events</h1>
       <div className="flex flex-wrap justify-center gap-10 w-[80vw] mx-auto">
