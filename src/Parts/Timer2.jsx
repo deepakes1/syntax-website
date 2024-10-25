@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { CalendarDays, Users, MapPin, Clock } from 'lucide-react';
 import zinnireglogo from "../assets/zinnireglogo.png";
 export default function Timer2() {
-  const registrationStartTime = new Date("2024-10-26T00:00:00").getTime();
+  const registrationStartTime = new Date("2024-10-26T02:00:00").getTime();
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
   const [slideAnimation, setSlideAnimation] = useState('');
 
@@ -74,7 +74,7 @@ export default function Timer2() {
             <h3 className="text-2xl font-semibold mb-4">Registration Starts</h3>
             <div className="flex justify-center items-center text-xl">
               <Clock className="mr-2" />
-              <span>October 26, 2024 at 12:00 AM</span>
+              <span>October 26, 2024 at 2:00 AM</span>
             </div>
           </div>
         </main>
