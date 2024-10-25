@@ -22,9 +22,10 @@ import Contact from './Parts/Contact';
 import Hackathon from './Parts/Hackathon';
 import Timer2 from './Parts/Timer2';
 
-
+import Instructions from './Parts/Instructions';
 import TechList from './Parts/TechList';
 import NontechList from './Parts/NontechList';
+import instructions from './Parts/Instructions';
 function App() {
       
   return (
@@ -60,6 +61,7 @@ function App() {
         <Route path='/events/non-tech/Memecreation' element = {<Memecreation/>}/>
         <Route path='/events/tech' element = {<TechList/>}/>
         <Route path='/events/NontechList' element = {<NontechList/>}/>
+        <Route path='/Instructions' element = {<Instructions/>}/>
       </Routes>
 
     </>

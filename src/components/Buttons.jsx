@@ -61,9 +61,11 @@ export default function Buttons() {
 
         <motion.div variants={buttonVariants}>
           <motion.div animate={floatAnimation}>
-            <Button className="w-40 h-16 text-lg font-semibold bg-black hover:bg-yellow-600 text-white">
-              Instruction
+            <Link to = "/Instructions">
+              <Button className="w-40 h-16 text-lg font-semibold bg-black hover:bg-yellow-600 text-white">
+                Instruction
             </Button>
+            </Link>
           </motion.div>
         </motion.div>
 
