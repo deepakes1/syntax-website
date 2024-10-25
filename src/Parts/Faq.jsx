@@ -3,33 +3,47 @@ import React, { useState } from 'react';
 const Faq = () => {
   const [activeQuestion, setActiveQuestion] = useState(null);
 
-  const questions = [
+const questions = [
   {
     id: 1,
-    question: 'How do I reister for the Symposium?',
-    answer: 'Register online via the official website   on-site at Venue Onspot.',
+    question: 'How do I register for the Symposium?',
+    answer: 'Register online via the official website or on-site at the venue.',
   },
   {
     id: 2,
-    question: 'What is the Timing for the Symposium?',
+    question: 'What are the timings for the Symposium?',
     answer: 'The event will take place from 9:00 AM to 5:00 PM on both November 7th and November 8th, 2024.',
   },
   {
     id: 3,
     question: 'Where is the Symposium being held?',
-    answer: ' The Symposium will be held in the Auditorium',
+    answer: 'The Symposium will be held in the Auditorium.',
   },
   {
     id: 4,
-    question: 'Who can attend the symposium?',
-    answer: 'The Symposium is exclusively open to engineering students Only.',
+    question: 'Who can attend the Symposium?',
+    answer: 'The Symposium is exclusively open to engineering students only.',
   },
   {
     id: 5,
-    question: 'What are the fees to attend the symposium?',
-    answer: 'Those who choose to register online, the base fee is set at $200, ',
+    question: 'What are the fees to attend the Symposium?',
+    answer: `
+Day 1 Only:
+i) General Fee: ₹200 per head (Online) or ₹250 per head (On-Spot)
+ii) Additional Events: ₹50 per event per head
+iii) If participating in Day 2, add ₹100 per head (On-Spot) on Day 2, plus ₹50 per event per head.
+
+Day 2 Only:
+i) General Fee: ₹250 per head (On-Spot)
+ii) Additional Events: ₹50 per event per head
+
+Both Days (Day 1 & Day 2):
+i) General Fee: ₹300 per head
+ii) Additional Events: ₹50 per event per head on each day.
+    `,
   },
 ];
+
 
   const handleToggle = (id) => {
     setActiveQuestion(activeQuestion === id ? null : id);

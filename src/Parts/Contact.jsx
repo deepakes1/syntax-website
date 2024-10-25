@@ -54,7 +54,7 @@ function Contact() {
                     <td style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px" , fontWeight: "bold"}}>8883990739</td>
                 </tr>
                 <tr>
-                    <td style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px", fontWeight: "bold" }}>Surya K (Poster Design Coordinator)</td>
+                    <td style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px", fontWeight: "bold" }}>Suriya K (Poster Design Coordinator)</td>
                     <td style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px" , fontWeight: "bold"}}>6369464173</td>
                 </tr>
                 <tr>
@@ -263,7 +263,7 @@ function Contact() {
       <div className="flex flex-col md:flex-row mt-5 gap-5 justify-center">
 
         <div className="shadow-2xl border border-black md:rounded-tr-3xl md:rounded-bl-3xl p-5 text-xl font-bold text-center mx-auto w-[90vw] md:w-[25vw]">
-          <h1>Surya K </h1>
+          <h1>Suriya K </h1>
           <h1>Vice : Vishwa M</h1>
           <h1>(Poster Design Coordinator)</h1>
         </div>
@@ -340,10 +340,10 @@ function Contact() {
           <div className=" text-center md:flex md:gap-5">
               <h1>Sudhakar S</h1>
               <h1>Madhavan S</h1>
-              <h1>Mohammed Shafiyulla</h1>
+              <h1>Mohammed Shafiyulla S</h1>
               <h1>Hema Chandrika N </h1>
               <h1>Madhumitha R M</h1>
-              <h1>Arthi E</h1>
+              <h1>Aarthi E</h1>
           </div>
           
           <h1>(Hackathon Coordinator)</h1>
