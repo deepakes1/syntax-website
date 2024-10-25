@@ -50,7 +50,7 @@ function TechList() {
         
         {/* Technical Events Card */}
         <Link to="/events/tech/coding">
-          <div className="cards p-5 shadow-xl bg-[#eeeee4] rounded-xl w-[300px] flex flex-col justify-center items-center">
+          <div className="cards p-5 shadow-xl bg-[#eeeee4] rounded-xl w-[280px] flex flex-col justify-center items-center">
             <img src={img1} className='h-56 w-56 object-contain rounded-xl' alt="Non-Technical Events" />
             <div className="mt-2 text-xl font-semibold text-center">
                 <h1>Coding </h1>
@@ -61,7 +61,7 @@ function TechList() {
 
         {/* Non-Technical Events Card */}
         <Link to="/events/tech/Mystery-Sql">
-            <div className="cards p-5 shadow-xl bg-[#eeeee4] rounded-xl w-[300px] flex flex-col justify-center items-center">
+            <div className="cards p-5 shadow-xl bg-[#eeeee4] rounded-xl w-[280px] flex flex-col justify-center items-center">
             <img src={img2} className='h-56 w-56 object-contain rounded-xl' alt="Non-Technical Events" />
             <div className="mt-2 text-xl font-semibold text-center">
                 <h1>Mystery SQL</h1>
@@ -72,7 +72,7 @@ function TechList() {
         </Link>
         {/* Hackathon Card */}
         <Link to="/events/tech/Paper-Presentation">
-            <div className="cards p-5 shadow-xl bg-[#eeeee4] rounded-xl w-[300px] flex flex-col justify-center items-center">
+            <div className="cards p-5 shadow-xl bg-[#eeeee4] rounded-xl w-[280px] flex flex-col justify-center items-center">
             <img src={img3} className='h-56 w-56 object-contain rounded-xl' alt="Non-Technical Events" />
             <div className="mt-2 text-xl font-semibold text-center">
                 <h1>Paper Presentation</h1>
@@ -83,7 +83,7 @@ function TechList() {
         </Link>
         {/* Additional Hackathon Card */}
         <Link to="/events/tech/Technical-Game">
-            <div className="cards p-5 shadow-xl bg-[#eeeee4] rounded-xl w-[300px] flex flex-col justify-center items-center">
+            <div className="cards p-5 shadow-xl bg-[#eeeee4] rounded-xl w-[280px] flex flex-col justify-center items-center">
             <img src={img4} className='h-56 w-56 object-contain rounded-xl' alt="Non-Technical Events" />
             <div className="mt-2 text-xl font-semibold text-center">
                 <h1>Tech Game</h1>
@@ -94,7 +94,7 @@ function TechList() {
 
         {/* Another Hackathon Card */}
         <Link to="/events/tech/Tecnical-Quiz">
-            <div className="cards p-5 shadow-xl bg-[#eeeee4] rounded-xl w-[300px] flex flex-col justify-center items-center">
+            <div className="cards p-5 shadow-xl bg-[#eeeee4] rounded-xl w-[280px] flex flex-col justify-center items-center">
             <img src={img5} className='h-56 w-56 object-contain rounded-xl' alt="Non-Technical Events" />
             <div className="mt-2 text-xl font-semibold text-center">
                 <h1>Tech Quiz</h1>

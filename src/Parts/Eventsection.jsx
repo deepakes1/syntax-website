@@ -54,9 +54,9 @@ function Eventsection() {
     <div  id="event" ref={el => sectionsRef.current[0] = el} className={`p-5 h-[80vh] md:h-[70vh] transition-opacity duration-1000 ${visibleSections.event ? 'opacity-100' : 'opacity-0'}`}>
       <h1 className='mt-28 text-4xl font-extrabold text-center'>Events</h1>
 
-    <div className="mt-10 mx-auto mb-10 rounded-xl md:flex gap-5 justify-center items-center w-[80vw]">
+    <div className="flex flex-col mt-10 justify-center items-center gap-10 w-[80vw] mx-auto">
       <Link to="/events/tech">
-        <div className="cards p-5 mt-2 md:mt-0 shadow-xl bg-[#eeeee4] rounded-xl w-[300px] flex flex-col justify-center items-center">
+        <div className="cards p-5 mt-2 md:mt-0 shadow-xl bg-[#eeeee4] rounded-xl w-[280px] flex flex-col justify-center items-center">
           <img src={tech} className='h-56 w-56 object-contain rounded-xl' alt="" />
           <div className="mt-2 text-xl font-semibold text-center">
             <h1>Technical Events</h1>
@@ -66,7 +66,7 @@ function Eventsection() {
       </Link>
 
       <Link to="/events/NontechList">
-        <div className="cards p-5 mt-2 md:mt-0 shadow-xl bg-[#eeeee4] rounded-xl w-[300px] flex flex-col justify-center items-center">
+        <div className="cards p-5 mt-2 md:mt-0 shadow-xl bg-[#eeeee4] rounded-xl w-[280px] flex flex-col justify-center items-center">
           <img src={nontech} className='h-56 w-56 object-contain rounded-xl' alt="" />
           <div className="mt-2 text-xl font-semibold text-center">
             <h1>Non-Technical Events</h1>
@@ -76,7 +76,7 @@ function Eventsection() {
       </Link>
 
       <Link to="/Hackathon" className='mb-10 md:mb-0'>
-        <div className="cards p-5 mt-2 md:mt-0 shadow-xl bg-[#eeeee4] rounded-xl w-[300px] flex flex-col justify-center items-center">
+        <div className="cards p-5 mt-2 md:mt-0 shadow-xl bg-[#eeeee4] rounded-xl w-[280px] flex flex-col justify-center items-center">
           <img src={hackathon} className='h-56 w-56 object-contain rounded-xl' alt="" />
           <div className="mt-2 text-xl font-semibold text-center">
             <h1>Hackathon</h1>
