@@ -156,17 +156,17 @@ const Home = () => {
     
       {/* Heading Section */}
       <div id="heading" ref={el => sectionsRef.current[0] = el} className={`p-5 h-[80vh] md:h-[70vh] transition-opacity duration-1000 ${visibleSections.heading ? 'opacity-100' : 'opacity-0'}`}>
-        <div className="heading mt-32">
+        <div className="heading mt-24 md:mt-16">
 
-          <div className="second-color text-center md:flex flex-col items-center justify-center">
+          <div className="second-color text-center md:flex flex-col  items-center justify-center">
             <h1 className='text-3xl font-extrabold lg:text-3xl'>GOVERNMENT COLLEGE OF ENGINEERING ERODE</h1>
             <h1 className='text-2xl font-bold lg:text-xl mt-2'>DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING</h1>
             <h1 className='text-xl text-red-600 mt-2'>Rolls Out the Red Carpet for </h1>
-            <div className="mt-10 flex flex-col items-center justify-center">
-              <img src={zinnia} className='h-full w-[80vw] md:w-[50vw] scale-125 md:scale-100 object-cover' alt="" />
+            <div className=" flex flex-col items-center justify-center">
+              <img src={zinnia} className='h-full md:h-[30vh] w-[80vw] md:w-full scale-110 md:scale-150  object-cover' alt="" />
             </div>
           </div>
-          <div className="mt-16 mb-52">
+          <div className="mt-16 md:mt-3 mb-52 ">
             <Timer />
           </div>
         </div>

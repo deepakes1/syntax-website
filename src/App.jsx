@@ -26,6 +26,7 @@ import Instructions from './Parts/Instructions';
 import TechList from './Parts/TechList';
 import NontechList from './Parts/NontechList';
 import instructions from './Parts/Instructions';
+import Schedule from './Parts/Schedule';
 function App() {
       
   return (
@@ -62,7 +63,8 @@ function App() {
         <Route path='/events/tech' element = {<TechList/>}/>
         <Route path='/events/NontechList' element = {<NontechList/>}/>
         <Route path='/Instructions' element = {<Instructions/>}/>
-        
+        <Route path='/Schedule' element = {<Schedule/>}/>
+
       </Routes>
 
     </>
