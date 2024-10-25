@@ -31,19 +31,19 @@ function App() {
       
   return (
     <>
-      {/* <div className="h-[10vh] bg-black flex justify-center items-center fixed top-0 w-full z-50">
+      <div className="h-[10vh] bg-black flex justify-center items-center fixed top-0 w-full z-50">
         <Navbar />
-      </div> */}
-
-    <div className="">
+      </div>
+{/* 
+     <div className="">
 
         <Timer2/>
-    </div>
+    </div>  */}
       
 
       
 
-      {/* <Routes>
+      <Routes>
         <Route path='/' element = {<Home/>}/>
         <Route path='/events' element = {<Eventsection/>}/>
         <Route path='/events/tech/coding' element = {<Coding/>}/>
@@ -65,7 +65,7 @@ function App() {
         <Route path='/Instructions' element = {<Instructions/>}/>
         <Route path='/Schedule' element = {<Schedule/>}/>
 
-      </Routes> */}
+      </Routes>
 
     </>
   )
