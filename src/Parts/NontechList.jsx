@@ -47,11 +47,11 @@ function NontechList() {
     <div div id="nontech" ref={el => sectionsRef.current[0] = el} className={`p-5 h-[80vh] md:h-[70vh] transition-opacity duration-1000 ${visibleSections.nontech ? 'opacity-100' : 'opacity-0'}`}>
       <div className="mt-32 p-7">
       <h1 className='text-4xl font-extrabold text-center mb-7'>Non-Technical Events</h1>
-      <div className="flex flex-wrap justify-center gap-10 w-[80vw] mx-auto">
+      <div className="flex flex-col md:flex-row md:flex-wrap mt-10 justify-center items-center gap-10 md:w-[80vw] md:mx-auto">
         
         {/* Technical Events Card */}
         <Link to="/events/non-tech/Video-Editing">
-          <div className="cards p-5 shadow-xl bg-[#eeeee4] rounded-xl w-[300px] flex flex-col justify-center items-center">
+          <div className="cards p-5 shadow-xl bg-[#eeeee4] rounded-xl w-[280px] flex flex-col justify-center items-center">
             <img src={img1} className='h-56 w-56 object-contain rounded-xl' alt="Non-Technical Events" />
             <div className="mt-2 text-xl font-semibold text-center">
                 <h1>Video-Editing </h1>
@@ -62,7 +62,7 @@ function NontechList() {
 
         {/* Non-Technical Events Card */}
         <Link to="/events/non-tech/Connection">
-            <div className="cards p-5 shadow-xl bg-[#eeeee4] rounded-xl w-[300px] flex flex-col justify-center items-center">
+            <div className="cards p-5 shadow-xl bg-[#eeeee4] rounded-xl w-[280px] flex flex-col justify-center items-center">
             <img src={img2} className='h-56 w-56 object-contain rounded-xl' alt="Non-Technical Events" />
             <div className="mt-2 text-xl font-semibold text-center">
                 <h1>Connection</h1>
@@ -73,7 +73,7 @@ function NontechList() {
         </Link>
         {/* Hackathon Card */}
         <Link to="/events/non-tech/Memecreation">
-            <div className="cards p-5 shadow-xl bg-[#eeeee4] rounded-xl w-[300px] flex flex-col justify-center items-center">
+            <div className="cards p-5 shadow-xl bg-[#eeeee4] rounded-xl w-[280px] flex flex-col justify-center items-center">
             <img src={img3} className='h-56 w-56 object-contain rounded-xl' alt="Non-Technical Events" />
             <div className="mt-2 text-xl font-semibold text-center">
                 <h1>Meme Creation</h1>
@@ -84,7 +84,7 @@ function NontechList() {
         </Link>
         {/* Additional Hackathon Card */}
         <Link to="/events/non-tech/MarbleShowDown">
-            <div className="cards p-5 shadow-xl bg-[#eeeee4] rounded-xl w-[300px] flex flex-col justify-center items-center">
+            <div className="cards p-5 shadow-xl bg-[#eeeee4] rounded-xl w-[280px] flex flex-col justify-center items-center">
             <img src={img4} className='h-56 w-56 object-contain rounded-xl' alt="Non-Technical Events" />
             <div className="mt-2 text-xl font-semibold text-center">
                 <h1>The Marble Showdown Game</h1>
@@ -95,7 +95,7 @@ function NontechList() {
 
         {/* Another Hackathon Card */}
         <Link to="/events/non-tech/PosterDesign">
-            <div className="cards p-5 shadow-xl bg-[#eeeee4] rounded-xl w-[300px] flex flex-col justify-center items-center">
+            <div className="cards p-5 shadow-xl bg-[#eeeee4] rounded-xl w-[280px] flex flex-col justify-center items-center">
             <img src={img5} className='h-56 w-56 object-contain rounded-xl' alt="Non-Technical Events" />
             <div className="mt-2 text-xl font-semibold text-center">
                 <h1>Poster Design</h1>
