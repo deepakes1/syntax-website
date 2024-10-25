@@ -1,5 +1,7 @@
 import React from 'react'
 import whatsapp from "../../assets/whatsapp.png" 
+import poster from "../../assets/VISUAL DESIGN.jpg"
+
 function PosterDesign() {
   return (
     <div>
@@ -7,22 +9,30 @@ function PosterDesign() {
         <div className='p-5' >
             <h2 className="text-center text-black text-3xl lg:text-4xl font-bold">Poster Design</h2>
 
-            <p className='text-2xl lg:text-2xl mt-5 mb-2 font-bold'>General Rules :</p>
+            <div className="flex flex-col-reverse  md:flex-row gap-3">
+                <div className="md:w-[40vw] flex flex-col justify-center p-5">
+                    <p className='text-2xl lg:text-2xl mt-5 mb-2 font-bold'>General Rules :</p>
 
-            <ul style={{listStyleType : "disc"}} className='text-xl' >
-                <li><span className='font-extrabold'>Only engineering college students are allowed </span></li>
-                <li><span className='font-extrabold'>The participant must have their respective college ID cards. </span></li>
-                <li><span className='font-extrabold'>Only registered students must participate.</span></li>
-                <li><span className='font-extrabold'>Candidates should arrive at the event location at least 10 minutes early for seat allocation.</span> </li>
-                <li><span className='font-extrabold'>Candidates must bring a fully charged laptop. </span></li>
-                <li><span className='font-extrabold'>The picture should be taken within the campus.</span></li>
-                <li><span className='font-extrabold'>Only the specified tools are allowed for creating designs(Photoshop,Photopea,Gimp,Canva,Picart).</span></li>
-                <li><span className='font-extrabold'>Avoid replicating the AI templates entirely.</span></li>
-                <li><span className='font-extrabold'>We’ve designated only one hour to complete the poster design..</span></li>
-                <li><span className='font-extrabold'>Photo evaluation would be based on Creativity, Composition and Editing.</span></li>
-                <li><span className='font-extrabold'>Participation certificate will be provided to all participants. </span></li>
+                    <ul style={{listStyleType : "disc"}} className='text-xl' >
+                        <li><span className='font-extrabold'>Only engineering college students are allowed </span></li>
+                        <li><span className='font-extrabold'>The participant must have their respective college ID cards. </span></li>
+                        <li><span className='font-extrabold'>Only registered students must participate.</span></li>
+                        <li><span className='font-extrabold'>Candidates should arrive at the event location at least 10 minutes early for seat allocation.</span> </li>
+                        <li><span className='font-extrabold'>Candidates must bring a fully charged laptop. </span></li>
+                        <li><span className='font-extrabold'>The picture should be taken within the campus.</span></li>
+                        <li><span className='font-extrabold'>Only the specified tools are allowed for creating designs(Photoshop,Photopea,Gimp,Canva,Picart).</span></li>
+                        <li><span className='font-extrabold'>Avoid replicating the AI templates entirely.</span></li>
+                        <li><span className='font-extrabold'>We’ve designated only one hour to complete the poster design..</span></li>
+                        <li><span className='font-extrabold'>Photo evaluation would be based on Creativity, Composition and Editing.</span></li>
+                        <li><span className='font-extrabold'>Participation certificate will be provided to all participants. </span></li>
 
-            </ul>
+                    </ul>
+                </div>
+
+                <div className="md:w-[40vw] p-5">
+                    <img src={poster} className='' alt="" />
+                </div>
+            </div>
 
             <div className="text-center mt-5">
                 <a href="https://docs.google.com/forms/d/1c7XCC7B42JogmSsjQNrDJf7NSvSkhzr1U8j_P5k_mYA/edit" target='_blank' className='bg-black text-lg text-white px-4 py-2 transition-all hover:rounded-xl'>Register Now!</a>

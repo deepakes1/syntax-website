@@ -46,7 +46,7 @@ function TechList() {
 
     <div className="mt-32 p-7">
       <h1 className='text-4xl font-extrabold text-center mb-7'>Technical Events</h1>
-      <div className="flex flex-col mt-10 justify-center items-center  gap-10 md:w-[80vw] md:mx-auto">
+      <div className="flex flex-col md:flex-row md:flex-wrap mt-10 justify-center items-center  gap-10 md:w-[80vw] md:mx-auto">
         
         {/* Technical Events Card */}
         <Link to="/events/tech/coding">

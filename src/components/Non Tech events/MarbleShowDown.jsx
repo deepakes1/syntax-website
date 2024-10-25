@@ -1,5 +1,6 @@
 import React from 'react'
 import whatsapp from "../../assets/whatsapp.png" 
+import marble from "../../assets/SPHERE CLASH.jpg"
 function MarbleShowDown() {
   return (
     <div>
@@ -7,20 +8,28 @@ function MarbleShowDown() {
         <div className='p-5' >
             <h2 className="text-center text-black text-3xl lg:text-4xl font-bold">The Marble ShowDown</h2>
 
-            <p className='text-2xl lg:text-2xl mt-5 mb-2 font-bold'>General Rules :</p>
+            <div className="flex  flex-col-reverse  md:flex-row gap-3">
+                <div className="md:w-[40vw] flex flex-col justify-center p-5">
+                    <p className='text-2xl lg:text-2xl mt-5 mb-2 font-bold'>General Rules :</p>
 
-            <ul style={{listStyleType : "disc"}} className='text-xl' >
-                <li><span className='font-extrabold'>Only engineering college students are allowed </span></li>
-                <li><span className='font-extrabold'>The participant must have their respective college ID cards. </span></li>
-                <li><span className='font-extrabold'>Only registered students must participate.</span></li>
-                <li><span className='font-extrabold'>Each team consist of 2 members and each team starts with 5 marbles.</span> </li>
-                <li><span className='font-extrabold'>A member from each team draw a numbered sheet from a box to determine the order of play and two teams compete against each other.</span></li>
-                <li><span className='font-extrabold'>This event contains 5 games and based on the result of each game the team will either gain or loss the marbles.</span></li>
-                <li><span className='font-extrabold'>The team with the most the most marbles at the end is declared the overall winner.</span></li>
-                <li><span className='font-extrabold'>Participation certificate will be provided to all the  participants.</span></li>
+                    <ul style={{listStyleType : "disc"}} className='text-xl mt-5' >
+                        <li><span className='font-extrabold'>Only engineering college students are allowed </span></li>
+                        <li><span className='font-extrabold'>The participant must have their respective college ID cards. </span></li>
+                        <li><span className='font-extrabold'>Only registered students must participate.</span></li>
+                        <li><span className='font-extrabold'>Each team consist of 2 members and each team starts with 5 marbles.</span> </li>
+                        <li><span className='font-extrabold'>A member from each team draw a numbered sheet from a box to determine the order of play and two teams compete against each other.</span></li>
+                        <li><span className='font-extrabold'>This event contains 5 games and based on the result of each game the team will either gain or loss the marbles.</span></li>
+                        <li><span className='font-extrabold'>The team with the most the most marbles at the end is declared the overall winner.</span></li>
+                        <li><span className='font-extrabold'>Participation certificate will be provided to all the  participants.</span></li>
 
-            </ul>
+                    </ul>
 
+                </div>
+                <div className="md:w-[40vw] p-5">
+                    <img src={marble} className='' alt="" />
+                </div>
+            
+            </div>
             <div className="text-center mt-5">
                 <a href="https://docs.google.com/forms/d/1WgFZptWxEJ0ela4T8e1kn_v6XBxLsGEdmfOrOZ1mtgQ/edit" target='_blank' className='bg-black text-lg text-white px-4 py-2 transition-all hover:rounded-xl'>Register Now!</a>
 

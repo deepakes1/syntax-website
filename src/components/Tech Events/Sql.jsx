@@ -1,24 +1,33 @@
 import React from 'react'
 import whatsapp from "../../assets/whatsapp.png"
+import sql from "../../assets/MYSTERY SQL.jpg"
 function Sql() {
   return (
     <div>
-      <div className="m-5 mt-16 lg:w-[40vw] lg:mx-auto font-semibold">
+      <div className="m-5  mt-24  lg:w-[80vw] lg:mx-auto font-semibold">
         <div className='p-5' >
             <h2 className="text-center text-black text-3xl lg:text-4xl font-bold">Mystery SQL</h2>
 
-            <p className='text-2xl lg:text-2xl mt-5 mb-2 font-bold underline'>General Rules :</p>
+            <div className="flex flex-col-reverse  md:flex-row gap-3">
+                <div className="md:w-[40vw]">
+                    <p className='text-2xl lg:text-2xl mt-5 mb-2 font-bold underline'>General Rules :</p>
 
-            <ul style={{listStyleType : "disc"}} className='text-xl' >
-                <li><span className='font-extrabold'>The participants must have a hackerrank account (For qualification round).</span></li>
-                <li><span className='font-extrabold'>Only Engineering College Students are allowed.</span></li>
-                <li><span className='font-extrabold'>College ID Card is must.</span></li>
-                <li><span className='font-extrabold'>Participation certificate will be provided to all the participants.</span></li>
-                <li><span className='font-extrabold'>The participants must not switch tabs during the test.</span></li>
-                <li><span className='font-extrabold'>Systems are available and participants can bring their own laptops if needed.</span></li>
-                <li><span className='font-extrabold'>2nd (final) round will be conducted in our custom created website.</span></li>
-                <li><span className='font-extrabold'>Participants must login to the website with their email ids.</span></li>
-            </ul>
+                    <ul style={{listStyleType : "disc"}} className='text-xl' >
+                        <li><span className='font-extrabold'>The participants must have a hackerrank account (For qualification round).</span></li>
+                        <li><span className='font-extrabold'>Only Engineering College Students are allowed.</span></li>
+                        <li><span className='font-extrabold'>College ID Card is must.</span></li>
+                        <li><span className='font-extrabold'>Participation certificate will be provided to all the participants.</span></li>
+                        <li><span className='font-extrabold'>The participants must not switch tabs during the test.</span></li>
+                        <li><span className='font-extrabold'>Systems are available and participants can bring their own laptops if needed.</span></li>
+                        <li><span className='font-extrabold'>2nd (final) round will be conducted in our custom created website.</span></li>
+                        <li><span className='font-extrabold'>Participants must login to the website with their email ids.</span></li>
+                    </ul>
+                </div>
+
+                <div className="md:w-[40vw] p-5">
+                    <img src={sql} className='' alt="" />
+                </div>
+            </div>
 
             <div className="text-center mt-5">
                 <a href="https://docs.google.com/forms/d/1TKNf_p_v20arsi7RKmQ1QRo3EodxZNR_VNXqH0lKA3Q/edit" target='_blank' className='bg-black text-lg text-white px-4 py-2 transition-all hover:rounded-xl'>Register Now!</a>

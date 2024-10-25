@@ -1,10 +1,11 @@
 import React from 'react';
 import whatsapp from "../../assets/whatsapp.png";
 import { Link } from 'react-router-dom';
+import CODEWARS from "../../assets/CODE WARS.jpg" 
 import '../../App.css'; 
 function Coding() {
   return (
-    <div className="m-5 mt-20 lg:w-[80vw] lg:mx-auto font-semibold">
+    <div className="m-5 mt-28 lg:w-[80vw] lg:mx-auto font-semibold">
       <div className="flex items-center justify-end mb-4">
         <Link to="/events/tech" className="
           flex items-center 
@@ -34,7 +35,9 @@ function Coding() {
 
       <div className='p-5'>
         <h2 className="text-center text-black text-3xl lg:text-4xl font-bold">Coding</h2>
-        <p className='text-2xl lg:text-2xl mt-3 mb-4 font-bold'>Rules:</p>
+        <div className="flex  flex-col-reverse  md:flex-row gap-3">
+          <div className="md:w-[40vw]">
+            <p className='text-2xl lg:text-2xl mt-3 mb-4 font-bold'>Rules:</p>
 
         <ul style={{ listStyleType: "disc" }} className='text-xl'>
           <li><span className='font-extrabold'>Coding must be done in the programming language of your choice e.g., C, C++, Java, Python.</span></li>
@@ -60,6 +63,13 @@ function Coding() {
           <li>The decision of the judges will be final.</li>
           <li>Participation certificates will be provided to all participants.</li>
         </ul>
+          </div>
+
+          <div className="md:w-[40vw] p-5 md:p-10">
+            <img src={CODEWARS} alt="" />
+          </div>
+        
+        </div>
 
         <div className="text-center mt-5">
           <a 

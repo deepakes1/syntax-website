@@ -1,26 +1,34 @@
 import React from 'react'
 import whatsapp from "../../assets/whatsapp.png"
+import techquiz from "../../assets/TECH QUIZ.jpg"
 
 function TechnicalQuiz() {
   return (
     <div>
-       <div className="m-5 mt-16 lg:w-[80vw] lg:mx-auto font-semibold">
+       <div className="m-5 mt-24 lg:w-[80vw] lg:mx-auto font-semibold">
         <div className='p-5' >
             <h2 className="text-center text-black text-3xl lg:text-4xl font-bold">Technical Quiz</h2>
 
-            <p className='text-2xl lg:text-2xl mt-5 mb-2 font-bold'>General Rules :</p>
+            <div className="flex flex-col-reverse  md:flex-row gap-3">
+                <div className="md:w-[40vw]">
+                    <p className='text-2xl lg:text-2xl mt-5 mb-2 font-bold'>General Rules :</p>
 
-            <ul style={{listStyleType : "disc"}} className='text-xl' >
-                <li><span className='font-extrabold'>Only Engineering College Students are allowed.</span> </li>
-                <li><span className='font-extrabold'>College ID Card is must.</span></li>
-                <li><span className='font-extrabold'>Only Registered Students are able to participate in the event.</span></li>
-                <li><span className='font-extrabold'>Laptop or Mobile is preferred to attend the Technical Quiz. </span></li>
-                <li><span className='font-extrabold'>Quiz contains Minimum of 2 rounds or a Maximum of 3 rounds (in worst case). </span></li>
-                <li><span className='font-extrabold'>Based on the performance of participants, 3 candidates will be selected as winners. </span></li>
-                <li><span className='font-extrabold'>Participants are expected to work individually and are not allowed leave the quiz area until the event is over.</span></li>
-                <li><span className='font-extrabold'>Participation Certificate will be provided to all the participants. </span></li>
+                    <ul style={{listStyleType : "disc"}} className='text-xl' >
+                        <li><span className='font-extrabold'>Only Engineering College Students are allowed.</span> </li>
+                        <li><span className='font-extrabold'>College ID Card is must.</span></li>
+                        <li><span className='font-extrabold'>Only Registered Students are able to participate in the event.</span></li>
+                        <li><span className='font-extrabold'>Laptop or Mobile is preferred to attend the Technical Quiz. </span></li>
+                        <li><span className='font-extrabold'>Quiz contains Minimum of 2 rounds or a Maximum of 3 rounds (in worst case). </span></li>
+                        <li><span className='font-extrabold'>Based on the performance of participants, 3 candidates will be selected as winners. </span></li>
+                        <li><span className='font-extrabold'>Participants are expected to work individually and are not allowed leave the quiz area until the event is over.</span></li>
+                        <li><span className='font-extrabold'>Participation Certificate will be provided to all the participants. </span></li>
 
-            </ul>
+                    </ul>
+                </div>
+                <div className="md:w-[40vw] p-5">
+                    <img src={techquiz} className='' alt="" />
+                </div>
+            </div>
 
             <div className="text-center mt-5">
                 <a href="https://docs.google.com/forms/d/195jZVNK-tR_FJi605Jpfw-8zCa4rshCpT1-cZXvzLqA/edit" target='_blank' className='bg-black text-lg text-white px-4 py-2 transition-all hover:rounded-xl'>Register Now!</a>

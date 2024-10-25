@@ -54,7 +54,7 @@ function Eventsection() {
     <div  id="event" ref={el => sectionsRef.current[0] = el} className={`p-5 h-[80vh] md:h-[70vh] transition-opacity duration-1000 ${visibleSections.event ? 'opacity-100' : 'opacity-0'}`}>
       <h1 className='mt-28 text-4xl font-extrabold text-center'>Events</h1>
 
-    <div className="flex flex-col mt-10 justify-center items-center gap-10 w-[80vw] mx-auto">
+    <div className="flex flex-col md:flex-row mt-10 justify-center items-center gap-10 w-[80vw] mx-auto">
       <Link to="/events/tech">
         <div className="cards p-5 mt-2 md:mt-0 shadow-xl bg-[#eeeee4] rounded-xl w-[280px] flex flex-col justify-center items-center">
           <img src={tech} className='h-56 w-56 object-contain rounded-xl' alt="" />

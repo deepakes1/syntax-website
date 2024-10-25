@@ -1,5 +1,7 @@
 import React from 'react'
 import whatsapp from "../../assets/whatsapp.png"
+import CLIP  from "../../assets/CLIP CRAFT.jpg"
+
 function Videography() {
   return (
     <div>
@@ -7,22 +9,30 @@ function Videography() {
         <div className='p-5' >
             <h2 className="text-center text-black text-3xl lg:text-4xl font-bold">Video Editing</h2>
 
-            <p className='text-2xl lg:text-2xl mt-5 mb-2 font-bold'>General Rules :</p>
+            <div className="flex flex-col-reverse  md:flex-row gap-3">
+              <div className="md:w-[40vw]  flex flex-col justify-center p-5">
+                <p className='text-2xl lg:text-2xl mt-5 mb-2 font-bold'>General Rules :</p>
 
-            <ul style={{listStyleType : "disc"}} className='text-xl' >
-                <li><span className='font-extrabold'>Only engineering college students are allowed </span></li>
-                <li><span className='font-extrabold'>The participant must have their respective college ID cards. </span></li>
-                <li><span className='font-extrabold'>Only registered students must participate.</span></li>
-                <li><span className='font-extrabold'>The use of AI tool in Editing is Strictly Prohibited.</span></li>
-                <li><span className='font-extrabold'>Editing should be done on-site within the campus.</span></li>
-                <li><span className='font-extrabold'>We will provide the video on the day of the event.</span></li>
-                <li><span className='font-extrabold'>Editing software’s such as After Effects, Premium pro is allowed for laptops & all editing software’s for mobile is permitted.</span></li>
-                <li><span className='font-extrabold'>The duration of the edited video should be within 30 seconds.</span></li>
-                <li><span className='font-extrabold'>Editing time starts at 11:30 AM and deadline for submission is 1:30 PM.</span></li>
-                <li><span className='font-extrabold'>Video Evaluation is based on creativity and editing.</span></li>
-                <li><span className='font-extrabold'>Participation Certificate will be provided to all Participants. </span></li>
+                <ul style={{listStyleType : "disc"}} className='text-xl' >
+                    <li><span className='font-extrabold'>Only engineering college students are allowed </span></li>
+                    <li><span className='font-extrabold'>The participant must have their respective college ID cards. </span></li>
+                    <li><span className='font-extrabold'>Only registered students must participate.</span></li>
+                    <li><span className='font-extrabold'>The use of AI tool in Editing is Strictly Prohibited.</span></li>
+                    <li><span className='font-extrabold'>Editing should be done on-site within the campus.</span></li>
+                    <li><span className='font-extrabold'>We will provide the video on the day of the event.</span></li>
+                    <li><span className='font-extrabold'>Editing software’s such as After Effects, Premium pro is allowed for laptops & all editing software’s for mobile is permitted.</span></li>
+                    <li><span className='font-extrabold'>The duration of the edited video should be within 30 seconds.</span></li>
+                    <li><span className='font-extrabold'>Editing time starts at 11:30 AM and deadline for submission is 1:30 PM.</span></li>
+                    <li><span className='font-extrabold'>Video Evaluation is based on creativity and editing.</span></li>
+                    <li><span className='font-extrabold'>Participation Certificate will be provided to all Participants. </span></li>
 
-            </ul>
+                </ul>
+              </div>
+
+              <div className="md:w-[40vw] p-5">
+                <img src={CLIP} className='' alt="" />
+              </div>
+            </div>
 
             <div className="text-center mt-5">
                 <a href="https://docs.google.com/forms/d/1kEXITvpDWeYhTU1NSQ9CzoM13R0onrS7D-3kf0vA-IQ/edit" target='_blank' className='bg-black text-lg text-white px-4 py-2 transition-all hover:rounded-xl'>Register Now!</a>

@@ -1,28 +1,40 @@
 import React from 'react'
 import whatsapp from "../../assets/whatsapp.png"
+import techgame from "../../assets/TECHXCELERATE.jpg"
+
 function TechnicalGame() {
   return (
     <div>
-      <div className="m-5 mt-16 lg:w-[80vw] lg:mx-auto font-semibold">
+      <div className="m-5 mt-24 lg:w-[80vw] lg:mx-auto font-semibold">
         <div className='p-5' >
             <h2 className="text-center text-black text-3xl lg:text-4xl  font-bold">Technical Game</h2>
 
-            <p className='text-2xl lg:text-3xl mt-5 underline mb-2 font-bold'>Rules: </p>
+            <div className="flex flex-col-reverse  md:flex-row gap-3">
+                <div className="md:w-[40vw]">
+                    <p className='text-2xl lg:text-3xl mt-5 underline mb-2 font-bold'>Rules: </p>
 
-            <ul style={{listStyleType : "disc"}} className='text-xl' >
-                <li><span className='font-extrabold'>A valid College ID card is mandatory.</span></li>
-                <li><span className='font-extrabold'>Only engineering students are allowed to participate.</span></li>
-                <li><span className='font-extrabold'>Only registered students may participate in the event</span></li>
-                <li><span className='font-extrabold'>A laptop is required for playing the games on our website.</span></li>
-                <li><span className='font-extrabold'>There are 2 rounds, with each round consisting of 3 games.</span></li>
-                <li><span className='font-extrabold'>Only eligible students from the 1st round are allowed to participate in the 2nd round.</span></li>
-                <li><span className='font-extrabold'>Instructions for each game will be announced before the game begins.</span></li>
-                <li><span className='font-extrabold'>Once a game has been played, the participant cannot replay it.</span></li>
-                <li><span className='font-extrabold'>Any form of malpractice will result in immediate disqualification.</span></li>
-                <li><span className='font-extrabold'>All participants will receive a participation certificate, and the top 3 winners will be awarded.</span></li>
+                    <ul style={{listStyleType : "disc"}} className='text-xl' >
+                        <li><span className='font-extrabold'>A valid College ID card is mandatory.</span></li>
+                        <li><span className='font-extrabold'>Only engineering students are allowed to participate.</span></li>
+                        <li><span className='font-extrabold'>Only registered students may participate in the event</span></li>
+                        <li><span className='font-extrabold'>A laptop is required for playing the games on our website.</span></li>
+                        <li><span className='font-extrabold'>There are 2 rounds, with each round consisting of 3 games.</span></li>
+                        <li><span className='font-extrabold'>Only eligible students from the 1st round are allowed to participate in the 2nd round.</span></li>
+                        <li><span className='font-extrabold'>Instructions for each game will be announced before the game begins.</span></li>
+                        <li><span className='font-extrabold'>Once a game has been played, the participant cannot replay it.</span></li>
+                        <li><span className='font-extrabold'>Any form of malpractice will result in immediate disqualification.</span></li>
+                        <li><span className='font-extrabold'>All participants will receive a participation certificate, and the top 3 winners will be awarded.</span></li>
 
-            
-            </ul>
+                    
+                    </ul>
+
+
+                </div>
+
+                <div className="md:w-[40vw] p-5">
+                    <img src={techgame} className='' alt="" />
+                </div>
+            </div>
 
              
 
