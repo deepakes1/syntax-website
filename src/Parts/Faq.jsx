@@ -50,8 +50,8 @@ ii) Additional Events: ₹50 per event per head on each day.
   };
 
   return (
-    <div className="faq-section">
-        <h1 className='text-3xl font-bold text-center'>FAQ</h1>
+    <div className=" faq-section">
+        <h1 className='text-3xl mt-24 font-bold text-center'>FAQ</h1>
       {questions.map((question) => (
         <div key={question.id} className="faq-question mt-5 p-5" style={{ backgroundColor: 'black', color: 'white', padding: '20px', marginBottom: '5px' }}>
           <div

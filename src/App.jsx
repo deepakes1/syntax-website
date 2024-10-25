@@ -62,6 +62,7 @@ function App() {
         <Route path='/events/tech' element = {<TechList/>}/>
         <Route path='/events/NontechList' element = {<NontechList/>}/>
         <Route path='/Instructions' element = {<Instructions/>}/>
+        
       </Routes>
 
     </>

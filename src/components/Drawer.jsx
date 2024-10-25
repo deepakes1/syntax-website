@@ -40,6 +40,9 @@ const Drawer = () => {
                     <div className='mb-1'>
                         <Link to="/contact" className='text-[#40377D] mt-5 px-4 py-2 md:py-1 rounded-tl-3xl rounded-br-3xl mx-auto bg-[#E6E6FA]' onClick={handleLinkClick}>Contact</Link>
                     </div>
+                    <div className='mb-1'>
+                        <Link to="/Schedule" className='text-[#40377D] mt-5 px-4 py-2 md:py-1 rounded-tl-3xl rounded-br-3xl mx-auto bg-[#E6E6FA]' onClick={handleLinkClick}>Schedule</Link>
+                    </div>
                 </div>
             </DrawerComponent>
         </>
