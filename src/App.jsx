@@ -34,7 +34,7 @@ function App() {
       <div className="h-[10vh] bg-black flex justify-center items-center fixed top-0 w-full z-50">
         <Navbar />
       </div>
-{/* 
+      {/* 
      <div className="">
 
         <Timer2/>

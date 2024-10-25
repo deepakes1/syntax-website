@@ -43,6 +43,8 @@ function Sql() {
                         <li><span className='font-extrabold'>The participants must have a hackerrank account (For qualification round).</span></li>
                         <li><span className='font-extrabold'>Only Engineering College Students are allowed.</span></li>
                         <li><span className='font-extrabold'>College ID Card is must.</span></li>
+                        <li><span className='font-extrabold'>Don’t use the same hackerrank id more than once..</span></li>
+                        <li><span className='font-extrabold'>The participants must have a hackerrank account (For qualification round).</span></li>
                         <li><span className='font-extrabold'>Participation certificate will be provided to all the participants.</span></li>
                         <li><span className='font-extrabold'>The participants must not switch tabs during the test.</span></li>
                         <li><span className='font-extrabold'>Systems are available and participants can bring their own laptops if needed.</span></li>

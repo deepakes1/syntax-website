@@ -56,7 +56,7 @@ function PaperPresentation() {
                 </div>
             </div>
 
-            <div className="">
+            <div className="mt-5">
             <h1 className=' text-black text-3xl lg:text-4xl mb-4 font-bold'>Topics for Paper Presentation</h1>
                 <ul style={{listStyleType : "disc"}} className='text-xl' >
                         <li><span className='font-extrabold'>Applications of Data Science in Finance</span></li>

@@ -60,7 +60,12 @@ function Eventsection() {
           <img src={tech} className='h-56 w-56 object-contain rounded-xl' alt="" />
           <div className="mt-2 text-xl font-semibold text-center">
             <h1>Technical Events</h1>
-            <p>View More..</p>
+            <div className="flex gap-1 items-center">
+              <p>View More</p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/>
+              </svg>
+            </div>
           </div>
         </div>
       </Link>
@@ -70,7 +75,12 @@ function Eventsection() {
           <img src={nontech} className='h-56 w-56 object-contain rounded-xl' alt="" />
           <div className="mt-2 text-xl font-semibold text-center">
             <h1>Non-Technical Events</h1>
-            <p>View More..</p>
+            <div className="flex gap-1 items-center">
+              <p>View More</p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/>
+              </svg>
+            </div>
           </div>
         </div>
       </Link>
@@ -80,7 +90,12 @@ function Eventsection() {
           <img src={hackathon} className='h-56 w-56 object-contain rounded-xl' alt="" />
           <div className="mt-2 text-xl font-semibold text-center">
             <h1>Hackathon</h1>
-            <p>View Rules..</p>
+            <div className="flex gap-1 items-center">
+              <p>View More</p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/>
+              </svg>
+            </div>
           </div>
         </div>
       </Link>

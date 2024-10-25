@@ -21,15 +21,15 @@ function Contact() {
                     <td style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px" , fontWeight: "bold"}}>9360085024</td>
                 </tr>
                 <tr>
-                    <td style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px", fontWeight: "bold" }}>Hariharan (Overall Coordinator)</td>
+                    <td style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px", fontWeight: "bold" }}>Hariharan K (Overall Coordinator)</td>
                     <td style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px" , fontWeight: "bold"}}>9345871334</td>
                 </tr>
                 <tr>
-                    <td style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px", fontWeight: "bold" }}>Muralitharan (Coding Coordinator)</td>
+                    <td style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px", fontWeight: "bold" }}>Muralitharan R (Coding Coordinator)</td>
                     <td style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px" , fontWeight: "bold"}}>9345479547</td>
                 </tr>
                 <tr>
-                    <td style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px", fontWeight: "bold" }}>Sandra Sirenjeevi (Tech Quiz Coordinator)</td>
+                    <td style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px", fontWeight: "bold" }}>Sandra Sirenjeevi S (Tech Quiz Coordinator)</td>
                     <td style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px" , fontWeight: "bold"}}>6374194200</td>
                 </tr>
                 <tr>
@@ -38,7 +38,7 @@ function Contact() {
                 </tr>
                 
                 <tr>
-                    <td style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px", fontWeight: "bold" }}>Dakshin Srinivas (Mystery SQL Coordinator)</td>
+                    <td style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px", fontWeight: "bold" }}>Dakshin Srinivas M S (Mystery SQL Coordinator)</td>
                     <td style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px" , fontWeight: "bold"}}>9360145819</td>
                 </tr>
                 <tr>
@@ -46,11 +46,11 @@ function Contact() {
                     <td style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px" , fontWeight: "bold"}}>9514500971</td>
                 </tr>
                 <tr>
-                    <td style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px", fontWeight: "bold" }}>Abishek (Meme Creation Coordinator)</td>
+                    <td style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px", fontWeight: "bold" }}>Abishek N (Meme Creation Coordinator)</td>
                     <td style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px" , fontWeight: "bold"}}>9361475870</td>
                 </tr>
                 <tr>
-                    <td style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px", fontWeight: "bold" }}>Kiruthikroshan (Video-Editing Coordinator)</td>
+                    <td style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px", fontWeight: "bold" }}>Kiruthikroshan M (Video-Editing Coordinator)</td>
                     <td style={{ border: "1px solid black", padding: "10px", textAlign: "center", fontSize: "20px" , fontWeight: "bold"}}>8883990739</td>
                 </tr>
                 <tr>
@@ -91,7 +91,7 @@ function Contact() {
 
         <div className="shadow-2xl border md:rounded-tr-3xl md:rounded-bl-3xl border-black mt-1 md:mt-0">
           <div className="text-xl p-5 font-bold text-center w-[90vw] md:w-[25vw]">
-            <h1>Subanu</h1>
+            <h1>Subanu S </h1>
             <h1>(Secretary)</h1>
           </div>
         </div>

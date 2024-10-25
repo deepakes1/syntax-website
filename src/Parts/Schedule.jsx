@@ -115,8 +115,8 @@ function Schedule() {
   return (
     <>
     <h1 className='text-4xl font-bold text-center mt-32'>Event Schedule</h1>
-    <h1 className='hidden md:block text-4xl font-bold text-center mt-5'>Day 1</h1>
-    <div className='hidden md:flex justify-center mt-5'>
+    <h1 className='hidden md:block text-4xl font-bold text-center md:mt-5'>Day 1</h1>
+    <div className='hidden md:flex justify-center md:mt-5'>
         
       <table border="1">
         <thead>
@@ -184,11 +184,11 @@ function Schedule() {
     </div>
 
     <div className="md:hidden">
-        <div className='mt-32'>
+        <div className='mt-5'>
       <h1 className='text-4xl font-bold text-center mb-6'>Day 1 Events</h1>
       <div className='flex flex-col items-center p-5'>
         {events.map(event => (
-          <div key={event.id} className='border-2 border-black rounded-tl-3xl rounded-br-3xl p-4 mb-4 w-full max-w-md'>
+          <div key={event.id} className='border-2 border-black font-bold rounded-tl-3xl rounded-br-3xl p-4 mb-4 w-full max-w-md'>
             <h2 className='font-bold text-lg'>{event.name}</h2>
             <p><strong>Start Time:</strong> {event.start}</p>
             <p><strong>End Time:</strong> {event.end}</p>
@@ -275,11 +275,11 @@ function Schedule() {
     </div>
 
     <div className="md:hidden">
-        <div className='mt-32'>
+        <div className='mt-10'>
       <h1 className='text-4xl font-bold text-center mb-6'>Day 2 Events</h1>
       <div className='flex flex-col items-center p-5'>
         {events1.map(event => (
-          <div key={event.id} className='border-2 border-black rounded-tl-3xl rounded-br-3xl p-4 mb-4 w-full max-w-md'>
+          <div key={event.id} className='border-2 border-black font-bold rounded-tl-3xl rounded-br-3xl p-4 mb-4 w-full max-w-md'>
             <h2 className='font-bold text-lg'>{event.name}</h2>
             <p><strong>Start Time:</strong> {event.start}</p>
             <p><strong>End Time:</strong> {event.end}</p>

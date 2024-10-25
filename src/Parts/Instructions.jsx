@@ -49,9 +49,9 @@ function Instructions() {
           <li>Participants must raise any objections or complaints with event co-ordinators immediately after the event. <b>Post event complaints may not be considered</b>.</li>
           <li>Participants <b>should bring necessary materials</b> (such as laptop, charger, etc.) as per event requirements.</li>
           <li>Each event may have <b>additional rules that will be shared at the beginning of the event</b> and participants must follow them strictly.</li>
-          <li>The decision of the <b>judges will be final and binding</b>. No further appeals or discussion regarding results will be entertained.</li>
-          <li>Lunch will be served at 01:30 PM to 02:30 PM for 07th Nov 2024 and 12:30 PM to 01:30 PM for 08th Nov 2024.</li>
-          <li>Events timing starts with 09:00 AM to 05:00 PM for both days (07th & 08th Nov).</li>
+          <li>The decision of the <b>judges will be final and binding</b>. No further appeals or discussion regarding results will be encouraged.</li>
+          <li>Lunch will be served at <b>01:30 PM </b> to <b>02:30 PM</b> for <b>07th Nov 2024</b>  and  <b>12:30 PM</b> to <b>01:30 PM </b> for <b>08th Nov 2024</b>.</li>
+          <li>Events timing starts with <b>09:00 AM to 05:00 PM</b> for both days (07th & 08th Nov).</li>
         </ul>
       </div>
     </div>

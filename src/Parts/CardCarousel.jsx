@@ -60,17 +60,17 @@ const CardCarousel = () => {
   ];
 
   const texts = [
-    'This is the 1content on the back!',
-    'This is the 2content on the back!',
-    'This is the 3content on the back!',
-    'This is the 4content on the back!',
-    'This is the 5content on the back!',
-    'This is the 6content on the back!',
-    'This is the 1content on the back!',
-    'This is the 2content on the back!',
-    'This is the 3content on the back!',
-    'This is the 4content on the back!',
-    'This is the 5content on the back!',
+    'CODING',
+    'HACKATHON',
+    'MYSTERY SQL',
+    'PAPER PRESENTATION',
+    'TECHNICAL QUIZ',
+    'TECH GAME',
+    'POSTER DESIGN',
+    'VIDEO-EDITING',
+    'CONNECTION',
+    'MEME CREATION',
+    'MARBLE GAME ',
   ];
 
   // Using the same images for the text section

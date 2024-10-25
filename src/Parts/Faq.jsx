@@ -11,7 +11,7 @@ const questions = [
   },
   {
     id: 2,
-    question: 'What are the timings for the Symposium?',
+    question: 'What are the timing for the Symposium?',
     answer: 'The event will take place from 9:00 AM to 5:00 PM on both November 7th and November 8th, 2024.',
   },
   {
@@ -50,8 +50,9 @@ ii) Additional Events: ₹50 per event per head on each day.
   };
 
   return (
-    <div className=" faq-section">
-        <h1 className='text-3xl mt-24 font-bold text-center'>FAQ</h1>
+    <>
+      <div className=" faq-section">
+        <h1 className='text-3xl mt-28 md:mt-24 font-bold text-center'>FAQ</h1>
       {questions.map((question) => (
         <div key={question.id} className="faq-question mt-5 p-5" style={{ backgroundColor: 'black', color: 'white', padding: '20px', marginBottom: '5px' }}>
           <div
@@ -69,7 +70,7 @@ ii) Additional Events: ₹50 per event per head on each day.
                 marginLeft: '10px',
                 transition: 'transform 0.3s',
                 transform: activeQuestion === question.id ? 'rotate(180deg)' : 'rotate(0deg)',
-                fill: 'white' // Set the icon color to white
+                fill: 'white' 
               }}
             >
               {activeQuestion === question.id ? (
@@ -87,6 +88,23 @@ ii) Additional Events: ₹50 per event per head on each day.
         </div>
       ))}
     </div>
+
+    <div className="p-5">
+      <div className="mt-8 mb-10 bg-slate-600 rounded-xl md:w-[50vw] w-[90vw] mx-auto p-5">
+        <h1 className='text-white text-2xl font-bold'>If you have any queries, please fill out the form linked below. Our team will review your concerns and get back to you as soon as possible.</h1>
+        <div className="flex justify-center p-3">
+          <div className="text-center  bg-black px-4 rounded-tl-xl rounded-br-xl py-2 text-white w-[130px]">
+            <a href="https://docs.google.com/forms/d/1t0Hinmwc4_DN4BL-RipeqcLnm8Q-qM8dM8MaF3fgQ9o/edit" className='text-lg  font-bold '>Query Form</a>
+
+          </div>
+        </div>
+    </div>
+    </div>
+
+    </>
+    
+
+    
   );
 };
 

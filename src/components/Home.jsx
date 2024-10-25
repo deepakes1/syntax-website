@@ -113,7 +113,7 @@ import instalogo from '../assets/instalogo.png';
 import maillogo from '../assets/maillogo.png';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import poster from "../assets/MAIN POSTER.png";
+import poster from "../assets/postermain.jpeg";
 
 const Home = () => {
   const [visibleSections, setVisibleSections] = useState({
@@ -159,7 +159,7 @@ const Home = () => {
         <div className="heading mt-24 md:mt-16">
 
           <div className="second-color text-center md:flex flex-col  items-center justify-center">
-            <h1 className='text-3xl font-extrabold lg:text-3xl'>GOVERNMENT COLLEGE OF ENGINEERING ERODE</h1>
+            <h1 className='text-3xl font-extrabold lg:text-3xl'>GOVERNMENT COLLEGE OF ENGINEERING, ERODE</h1>
             <h1 className='text-2xl font-bold lg:text-xl mt-2'>DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING</h1>
             <h1 className='text-xl text-red-600 mt-2'>Rolls Out the Red Carpet for </h1>
             <div className=" flex flex-col items-center justify-center">
