@@ -52,6 +52,8 @@ function Instructions() {
           <li>The decision of the <b>judges will be final and binding</b>. No further appeals or discussion regarding results will be encouraged.</li>
           <li>Lunch will be served at <b>01:30 PM </b> to <b>02:30 PM</b> for <b>07th Nov 2024</b>  and  <b>12:30 PM</b> to <b>01:30 PM </b> for <b>08th Nov 2024</b>.</li>
           <li>Events timing starts with <b>09:00 AM to 05:00 PM</b> for both days (07th & 08th Nov).</li>
+          <li>There is <b>no accommodation available</b> for the symposium.</li>
+
         </ul>
       </div>
     </div>
