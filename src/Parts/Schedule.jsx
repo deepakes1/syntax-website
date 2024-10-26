@@ -7,14 +7,14 @@ function Schedule() {
       name: 'INAUGURAL',
       start: '9:30 AM',
       end: '11:00 AM',
-      venue: 'Auditorium',
+      venue: 'AUDITORIUM',
     },
     {
       id: 2,
       name: 'TECH TALK',
       start: '11:30 AM',
       end: '1:30 PM',
-      venue: 'Auditorium',
+      venue: 'AUDITORIUM',
     },
     {
       id: 3,
@@ -115,6 +115,7 @@ function Schedule() {
   return (
     <>
     <h1 className='text-4xl font-bold text-center mt-32'>Event Schedule</h1>
+    <h1 className='text-2xl font-bold text-center mt-5'>(The venue and time are subject to change and may vary.)</h1>
     <h1 className='hidden md:block text-4xl font-bold text-center md:mt-5'>Day 1</h1>
     <div className='hidden md:flex justify-center md:mt-5'>
         
@@ -185,6 +186,7 @@ function Schedule() {
 
     <div className="md:hidden">
         <div className='mt-5'>
+
       <h1 className='text-4xl font-bold text-center mb-6'>Day 1 Events</h1>
       <div className='flex flex-col items-center p-5'>
         {events.map(event => (
