@@ -352,6 +352,23 @@ function Contact() {
         
       </div>
 
+
+      <div className="bg-black text-white w-full p-5">
+        <h1 className='text-3xl font-black text-center'>A Heartfelt Thank You to Our Development Team</h1>
+        <h1 className='text-xl font-semibold md:w-[40vw] mt-4 md:mx-auto'>We want to take a moment to express our deepest gratitude to the incredible team behind our website's development. Your hard work, dedication, and creativity have made this project a success.</h1>
+        <div className="md:w-[10vw] w-[120px] mx-auto">
+          <h1 className='text-lg mt-5 font-black'>Team Members:</h1>
+
+        <ul style={{listStyleType : "disc"}} className='text-lg font-black mt-2 ml-5'>
+        
+          <li>Deepak E S</li>
+          <li>Rasika C</li>
+          <li>Raghul J</li>
+          <li>Surya K</li>
+        </ul>
+        </div>
+      </div>
+
       </div>
     </div>
 
