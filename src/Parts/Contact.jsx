@@ -264,14 +264,14 @@ function Contact() {
 
         <div className="shadow-2xl border border-black md:rounded-tr-3xl md:rounded-bl-3xl p-5 text-xl font-bold text-center mx-auto w-[90vw] md:w-[25vw]">
           <h1>Suriya K </h1>
-          <h1>Vice : Vishwa M</h1>
+          <h1>Vice : Mohamed Mushraf H </h1>
           <h1>(Poster Design Coordinator)</h1>
         </div>
 
         <div className="shadow-2xl border border-black md:rounded-tr-3xl md:rounded-bl-3xl mt-1 md:mt-0">
           <div className="text-xl p-5 font-bold text-center w-[90vw] md:w-[25vw]">
             <h1>Sivaranjini S</h1>
-            <h1>Vice : Sahana G</h1>
+            <h1>Vice : Abirami R </h1>
             <h1>(Poster Design Coordinator)</h1>
           </div>
         </div>
@@ -282,14 +282,14 @@ function Contact() {
 
         <div className="shadow-2xl p-5 text-xl border border-black md:rounded-tr-3xl md:rounded-bl-3xl font-bold text-center mx-auto w-[90vw] md:w-[25vw]">
           <h1>Kiruthickroshan M</h1>
-          <h1>Vice : Mohamed Mushraf H</h1>
+          <h1>Vice : Vishwa M</h1>
           <h1>(Video-Editing Coordinator)</h1>
         </div>
 
         <div className="shadow-2xl border border-black md:rounded-tr-3xl md:rounded-bl-3xl mt-1 md:mt-0">
           <div className="text-xl p-5 font-bold text-center w-[90vw] md:w-[25vw]">
             <h1>Bhuvanasri G K</h1>
-            <h1>Vice : Abirami R</h1>
+            <h1>Vice : Sahana G</h1>
             <h1>(Video-Editing Coordinator)</h1>
           </div>
         </div>
