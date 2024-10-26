@@ -7,35 +7,20 @@ function Instructions() {
 
   const sectionsRef = useRef([]);
 
-  const handleScroll = (entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting && !visibleSections.instruc) {
-        setVisibleSections(prev => ({
-          ...prev,
-          [entry.target.id]: true,
-        }));
-      }
-    });
-  };
-
   useEffect(() => {
-    const observer = new IntersectionObserver(handleScroll, {
-      threshold: 0.1,
-    });
+    const timer = setTimeout(() => {
+      setVisibleSections({ instruc: true });
+    }, 1000); // Change the delay time as needed (1000 ms = 1 second)
 
-    sectionsRef.current.forEach(section => {
-      if (section) observer.observe(section);
-    });
-
-    return () => {
-      sectionsRef.current.forEach(section => {
-        if (section) observer.unobserve(section);
-      });
-    };
+    return () => clearTimeout(timer); // Cleanup the timer on unmount
   }, []);
 
   return (
-    <div id="instruc" ref={el => sectionsRef.current[0] = el} className={`p-5 h-[80vh] md:h-[70vh] transition-opacity duration-1000 ${visibleSections.instruc ? 'opacity-100' : 'opacity-0'}`}>
+    <div
+      id="instruc"
+      ref={el => (sectionsRef.current[0] = el)}
+      className={`p-5 h-[80vh] md:h-[70vh] transition-opacity duration-1000 ${visibleSections.instruc ? 'opacity-100' : 'opacity-0'}`}
+    >
       <div className='mt-20 md:w-[80vw] md:mx-auto'>
         <h1 className='text-center text-4xl font-black'>General Instructions for Zinnia</h1>
 
@@ -53,7 +38,6 @@ function Instructions() {
           <li>Lunch will be served at <b>01:30 PM </b> to <b>02:30 PM</b> for <b>07th Nov 2024</b>  and  <b>12:30 PM</b> to <b>01:30 PM </b> for <b>08th Nov 2024</b>.</li>
           <li>Events timing starts with <b>09:00 AM to 05:00 PM</b> for both days (07th & 08th Nov).</li>
           <li>There is <b>no accommodation available</b> for the symposium.</li>
-
         </ul>
       </div>
     </div>
