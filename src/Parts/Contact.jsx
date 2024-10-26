@@ -306,7 +306,7 @@ function Contact() {
 
         <div className="shadow-2xl mt-1 border border-black md:rounded-tr-3xl md:rounded-bl-3xl md:mt-0">
           <div className="text-xl p-5 font-bold  text-center w-[90vw] md:w-[25vw]">
-            <h1>Arthi M</h1>
+            <h1>Aarthi M</h1>
             <h1>Vice : Priyadharshini B</h1>
             <h1>(Connection Coordinator)</h1>
           </div>
