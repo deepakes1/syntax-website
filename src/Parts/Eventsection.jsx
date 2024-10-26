@@ -7,38 +7,7 @@ import tech from "../assets/tech.png"
 import nontech from "../assets/nontech.png"
 
 function Eventsection() {
-  const [visibleSections, setVisibleSections] = useState({
-    instruc: false,
-  });
-
-  const sectionsRef = useRef([]);
-
-  const handleScroll = (entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting && !visibleSections.instruc) {
-        setVisibleSections(prev => ({
-          ...prev,
-          [entry.target.id]: true,
-        }));
-      }
-    });
-  };
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(handleScroll, {
-      threshold: 0.1,
-    });
-
-    sectionsRef.current.forEach(section => {
-      if (section) observer.observe(section);
-    });
-
-    return () => {
-      sectionsRef.current.forEach(section => {
-        if (section) observer.unobserve(section);
-      });
-    };
-  }, []);
+  
   return (
     // <div className='flex flex-col justify-center gap-3 text-2xl items-center h-[80vh] lg:h-screen mt-[10vh]'> {/* Added margin-top */}
     //   <Dropdown />
@@ -51,7 +20,7 @@ function Eventsection() {
     <>
     
     
-    <div  id="event" ref={el => sectionsRef.current[0] = el} className={`p-5 h-[80vh] md:h-[70vh] transition-opacity duration-1000 ${visibleSections.event ? 'opacity-100' : 'opacity-0'}`}>
+    <div>
       <h1 className='mt-28 text-4xl font-extrabold text-center'>Events</h1>
 
     <div className="flex flex-col md:flex-row mt-10 justify-center items-center gap-10 w-[80vw] mx-auto">

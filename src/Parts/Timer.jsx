@@ -36,7 +36,8 @@ function Timer() {
       {countdown.days < 0 && countdown.hours < 0 && countdown.minutes < 0 && countdown.seconds < 0 ? (
         <p>EXPIRED</p>
       ) : null}
-
+      
+      <h1 className='text-3xl font-semibold text-center mb-4'>Registration Closes in </h1>
       <div className="flex flex-col items-center text-[#40377D] font-bold text-lg">
         <div className="flex">
         
@@ -59,6 +60,8 @@ function Timer() {
           <h1 className='text-4xl'>{countdown.seconds}</h1>
           <p >Seconds</p>
         </div>
+
+
       </div>
       </div>
 
