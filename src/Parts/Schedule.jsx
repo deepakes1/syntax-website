@@ -19,7 +19,7 @@ function Schedule() {
     {
       id: 3,
       name: 'MYSTERY SQL ROUND 1',
-      start: '11:30 PM',
+      start: '11:30 AM',
       end: '1:30 PM',
       venue: 'LAB CC1, CC2',
     },
@@ -147,7 +147,7 @@ function Schedule() {
           <tr>
           <td style={{ border: "2px solid black", padding: "10px" ,fontWeight:"bolder"}}>3</td>
             <td style={{ border: "2px solid black", padding: "10px",fontWeight:"bolder" }}>MYSTERY SQL ROUND 1</td>
-            <td style={{ border: "2px solid black", padding: "10px",fontWeight:"bolder" }}>11:30 PM</td>
+            <td style={{ border: "2px solid black", padding: "10px",fontWeight:"bolder" }}>11:30 AM</td>
             <td style={{ border: "2px solid black", padding: "10px",fontWeight:"bolder" }}>1:30 PM</td>
             <td style={{ border: "2px solid black", padding: "10px" ,fontWeight:"bolder"}}>LAB CC1, CC2</td>
           </tr>
