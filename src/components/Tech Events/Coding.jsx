@@ -42,7 +42,6 @@ function Coding() {
         <ul style={{ listStyleType: "disc" }} className='text-xl'>
           <li><span className='font-extrabold'>Coding must be done in the programming language of your choice e.g., C, C++, Java, Python.</span></li>
           <li><span className='font-extrabold'>Participants will use an online coding platform HackerRank, so all must have an account on HackerRank.</span></li>
-          <li><span className='font-extrabold'>Participants should have knowledge of C programming for debugging.</span></li>
           <li><span className='font-extrabold'>Any form of cheating or copying will lead to immediate disqualification.</span></li>
           <li><span className='font-extrabold'>No communication with other participants or use of external resources during the event.</span></li>
           <li><span className='font-extrabold'>Participants may bring their own laptops and chargers. Internet and power supply will be provided at the venue.</span></li>
