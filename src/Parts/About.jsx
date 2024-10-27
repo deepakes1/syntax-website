@@ -68,7 +68,7 @@ const About = () => {
                 </div>
 
                 <div id="message" ref={el => sectionsRef.current[3] = el} className={`section rounded-tl-3xl rounded-br-3xl mt-5 p-5 border border-black ${visibleSections.message ? 'visible' : ''}`}>
-                    <h2 className="text-2xl md:text-4xl font-extrabold mb-4 mt-5">Principle Message</h2>
+                    <h2 className="text-2xl md:text-4xl font-extrabold mb-4 mt-5">Principal Message</h2>
                     <p className='text-xl md:text-2xl font-semibold'>
                        A warm welcome to all the aspiring engineers joining Government College of Engineering, Erode (formerly IRTT). With the support of our highly qualified and dedicated faculty, we are committed to shaping our students into industry-ready professionals.
                             We view students, parents, and society as key stakeholders, and our goal is to ensure their satisfaction. At our college, discipline is a top priority. Regular tests and exams are conducted to ensure strong performance in university assessments. We also have an active Training and Placement Cell dedicated to securing placements for all students. Equal importance is given to extracurricular and co-curricular activities.
