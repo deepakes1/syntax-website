@@ -39,14 +39,13 @@ function PaperPresentation() {
                 <div className="md:w-[40vw]">
                     <p className='text-2xl lg:text-3xl mt-5 underline mb-2 font-bold'>General Rules :</p>
                     <ul style={{listStyleType : "disc"}} className='text-xl' >
-                        <li><span className='font-extrabold'>Team Composition & Eligibility :</span> Teams can have 1 to 3 participants. Only registered Engineering college students can participate; ID cards are required.</li>
-                        <li><span className='font-extrabold'>Presentation Time Limit: </span>Teams will have 5-10 minutes for the presentation, followed by a Q&A session. Participation certificates will be given to all. </li>
-                        <li><span className='font-extrabold'>Abstract & Paper Submission :</span> Abstracts (max 250 words) and papers (max 15 pages) must be emailed to csesyntax@gmail.com with the domain and sub-category in the subject line.</li>
-                        <li><span className='font-extrabold'>Final Paper Submission :</span> Papers must include a cover page with title, team members' names, college details, contact numbers, and email IDs.</li>
-                        <li><span className='font-extrabold'>Submission Guidelines: </span>Email abstracts, papers, and presentations (PPT) to csesyntax@gmail.com. Contact the same email for any difficulties.</li>
+                        <li><span className='font-extrabold'>Team Composition & Eligibility :</span> Teams can have 1 to 3 participants. Only registered engineering college students can participate; a student ID card is mandatory.</li>
+                        <li><span className='font-extrabold'>Presentation Time Limit: </span>Each team will have 5-10 minutes for the presentation, followed by a Q&A session. Participation certificates will be given to all.</li>
+                        <li><span className='font-extrabold'>Final Paper Submission : </span>  Submit your full paper (maximum of 15 pages) to  <b>csesyntax@gmail.com.</b> Papers must include a cover page with the title, team members' names, college details, contact numbers, and email IDs.</li>
+                        <li><span className='font-extrabold'>Submission Guidelines :</span> Email your full papers (maximum of 15 pages) and presentations (PPT) to <b>csesyntax@gmail.com.</b> For any difficulties or inquiries, contact the same email.</li>
+                        <li><span className='font-extrabold'>Submission Deadline :  </span>Submit the soft copy of your final paper via email by November 5, before 10 PM.</li>
                         <li><span className='font-extrabold'>Judges' Decision :</span> The decision of the judges is final. No arguments or appeals will be entertained.</li>
-                        <li><span className='font-extrabold'>Submission Deadline :</span> The soft copy of your final paper must be submitted via email one day prior to the presentation.</li>
-                        <li><span className='font-extrabold'>Event Details : </span>: Topics will be announced on the official website. Only Engineering college students are eligible to participate.</li>            
+                        <li><span className='font-extrabold'>Event Details : </span> Topics will be announced on the official website. Only Engineering college students are eligible to participate.</li>            
                     </ul>
                 </div>
 
