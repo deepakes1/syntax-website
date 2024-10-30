@@ -57,8 +57,8 @@ function Schedule() {
     {
       id: 1,
       name: 'HACKATHON',
-      start: '9:30 AM',
-      end: '3:30 PM',
+      start: '9:00 AM',
+      end: '3:00 PM',
       venue: 'CLASS-104 (CSE DEPARTMENT), SEMINAR HALL',
     },
     {
@@ -106,8 +106,8 @@ function Schedule() {
     {
       id: 8,
       name: 'SPHERE CLASH',
-      start: '2:30 PM',
-      end: '3:30 PM',
+      start: '2:00 PM',
+      end: '3:00 PM',
       venue: 'CLASS-103 (CSE DEPARTMENT)',
     },
   ];
@@ -118,6 +118,7 @@ function Schedule() {
     <h1 className='text-3xl font-bold text-center mt-5'>Department of Computer Science and Engineering</h1>
     <h1 className='text-2xl font-bold text-center mt-5'>(The venue and time are subject to change and may vary.)</h1>
     <h1 className='hidden md:block text-4xl font-bold text-center md:mt-5'>Day 1</h1>
+    <h1 className='text-3xl font-bold text-center mt-5'>PRICE AND CERTIFICATE DISTRIBUTION - After 4.30 PM</h1>
     <div className='hidden md:flex justify-center md:mt-5'>
         
       <table border="1">
@@ -203,6 +204,7 @@ function Schedule() {
     </div>
 
     <h1 className='hidden md:block text-4xl font-bold text-center mt-10'>Day 2</h1>
+    <h1 className='text-3xl font-bold text-center mt-5'>PRICE AND CERTIFICATE DISTRIBUTION - After 3.00 PM</h1>
     <div className='hidden md:flex mt-5 justify-center p-7'>
         
       <table border="1">
@@ -219,8 +221,8 @@ function Schedule() {
           <tr>
             <td style={{ border: "2px solid black", padding: "10px",fontWeight:"bolder" }}>1</td>
             <td style={{ border: "2px solid black", padding: "10px" ,fontWeight:"bolder"}}>HACKATHON</td>
-            <td style={{ border: "2px solid black", padding: "10px",fontWeight:"bolder" }}>9:30 AM</td>
-            <td style={{ border: "2px solid black", padding: "10px",fontWeight:"bolder" }}>3:30 PM</td>
+            <td style={{ border: "2px solid black", padding: "10px",fontWeight:"bolder" }}>9:00 AM</td>
+            <td style={{ border: "2px solid black", padding: "10px",fontWeight:"bolder" }}>3:00 PM</td>
             <td style={{ border: "2px solid black", padding: "10px",fontWeight:"bolder" }}>CLASS-104 (CSE DEPARTMENT), SEMINAR HALL</td>
           </tr>
           <tr>
@@ -269,8 +271,8 @@ function Schedule() {
           <tr>
             <td style={{ border: "2px solid black", padding: "10px",fontWeight:"bolder" }}>8</td>
             <td style={{ border: "2px solid black", padding: "10px" ,fontWeight:"bolder"}}>SPHERE CLASH</td>
-            <td style={{ border: "2px solid black", padding: "10px" ,fontWeight:"bolder"}}>2:30 PM</td>
-            <td style={{ border: "2px solid black", padding: "10px",fontWeight:"bolder" }}>3:30 PM</td>
+            <td style={{ border: "2px solid black", padding: "10px" ,fontWeight:"bolder"}}>2:00 PM</td>
+            <td style={{ border: "2px solid black", padding: "10px",fontWeight:"bolder" }}>3:00 PM</td>
             <td style={{ border: "2px solid black", padding: "10px" ,fontWeight:"bolder"}}>CLASS-103(CSE DEPARTMENT)</td>
           </tr>
         </tbody>
