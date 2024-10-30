@@ -18,6 +18,7 @@ function Hackathon() {
                         <li><span className='font-extrabold'>College ID card is mandatory.</span></li>
                         <li><span className='font-extrabold'>The team should contain maximum of 3 members.</span></li>
                         <li><span className='font-extrabold'>Only registered students must participate.</span></li>
+                         <li><span className='font-extrabold'>Question will be provided during the event.</span></li>
                         <li><span className='font-extrabold'>The coding must be done only during the event.</span></li>
                         <li><span className='font-extrabold'>The participants are instructed to reach the event place within 9.15 am.</span></li>
                         <li><span className='font-extrabold'>The event begins at 9.30 am and ends at 3.30 pm (excluding 1 hour for lunch)</span></li>
