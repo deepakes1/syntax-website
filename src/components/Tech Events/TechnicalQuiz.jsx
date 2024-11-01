@@ -40,6 +40,7 @@ function TechnicalQuiz() {
                     <p className='text-2xl lg:text-2xl mt-5 mb-2 font-bold'>General Rules :</p>
 
                     <ul style={{listStyleType : "disc"}} className='text-xl' >
+                        <li><span className='font-extrabold'>Participation is limited to individual entrants only</span></li>
                         <li><span className='font-extrabold'>Only Engineering College Students are allowed.</span> </li>
                         <li><span className='font-extrabold'>College ID Card is must.</span></li>
                         <li><span className='font-extrabold'>Only Registered Students are able to participate in the event.</span></li>

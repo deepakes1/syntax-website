@@ -244,7 +244,7 @@ function Schedule() {
             <td style={{ border: "2px solid black", padding: "10px",fontWeight:"bolder" }}>TECHXCELERATE ROUND 1</td>
             <td style={{ border: "2px solid black", padding: "10px",fontWeight:"bolder" }}>9:30 AM</td>
             <td style={{ border: "2px solid black", padding: "10px",fontWeight:"bolder" }}>10:30 PM</td>
-            <td style={{ border: "2px solid black", padding: "10px",fontWeight:"bolder" }}>CLASS-101</td>
+            <td style={{ border: "2px solid black", padding: "10px",fontWeight:"bolder" }}>CLASS-101 (CSE DEPARTMENT)</td>
           </tr>
           
           <tr>

@@ -40,6 +40,7 @@ function TechnicalGame() {
                     <p className='text-2xl lg:text-3xl mt-5 underline mb-2 font-bold'>Rules: </p>
 
                     <ul style={{listStyleType : "disc"}} className='text-xl' >
+                    <li><span className='font-extrabold'>Participation is limited to individual entrants only</span></li>
                         <li><span className='font-extrabold'>A valid College ID card is mandatory.</span></li>
                         <li><span className='font-extrabold'>Only engineering students are allowed to participate.</span></li>
                         <li><span className='font-extrabold'>Only registered students may participate in the event</span></li>
