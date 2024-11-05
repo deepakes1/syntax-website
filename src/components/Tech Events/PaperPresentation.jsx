@@ -74,7 +74,8 @@ function PaperPresentation() {
             </div>
 
             <div className="text-center mt-5">
-                <a href="https://docs.google.com/forms/d/1kLNeodg2spp3Cncnx0O3H0HETxdFdkiYyDWoELFIn7Y/edit" target='_blank' className='bg-black text-lg text-white px-4 py-2 transition-all hover:rounded-xl'>Register Now!</a>
+                <marquee className= "bg-red-600  text-white text-2xl">Registration closed for Paper Presentation.</marquee>
+                {/* <a href="https://docs.google.com/forms/d/1kLNeodg2spp3Cncnx0O3H0HETxdFdkiYyDWoELFIn7Y/edit" target='_blank' className='bg-black text-lg text-white px-4 py-2 transition-all hover:rounded-xl'>Register Now!</a> */}
 
             </div>
             <div className="mt-5">
