@@ -57,8 +57,8 @@ function Connection() {
            </div>
 
             <div className="text-center mt-5">
-                <a href="https://docs.google.com/forms/d/1o6TQrGWLwhpphtUjfVienQzhobS3q3qOxFhxb_o3rEE/edit" target='_blank' className='bg-black text-lg text-white px-4 py-2 transition-all hover:rounded-xl'>Register Now!</a>
-
+                {/* <a href="https://docs.google.com/forms/d/1o6TQrGWLwhpphtUjfVienQzhobS3q3qOxFhxb_o3rEE/edit" target='_blank' className='bg-black text-lg text-white px-4 py-2 transition-all hover:rounded-xl'>Register Now!</a> */}
+                 <marquee className= "bg-red-600  text-white text-2xl">Registration closed</marquee>
             </div>
             <div className="mt-5">
                 <h1 className='text-xl'>For inquiries, please contact our coordinator <b>@Dhinesh S</b> & <b>@Aarthi M</b> </h1>

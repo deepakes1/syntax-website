@@ -60,8 +60,8 @@ function Sql() {
             </div>
 
             <div className="text-center mt-5">
-                <a href="https://docs.google.com/forms/d/1TKNf_p_v20arsi7RKmQ1QRo3EodxZNR_VNXqH0lKA3Q/edit" target='_blank' className='bg-black text-lg text-white px-4 py-2 transition-all hover:rounded-xl'>Register Now!</a>
-
+                {/* <a href="https://docs.google.com/forms/d/1TKNf_p_v20arsi7RKmQ1QRo3EodxZNR_VNXqH0lKA3Q/edit" target='_blank' className='bg-black text-lg text-white px-4 py-2 transition-all hover:rounded-xl'>Register Now!</a> */}
+               <marquee className= "bg-red-600  text-white text-2xl">Registration closed</marquee>
             </div>
             <div className="mt-5">
                 <h1 className='text-xl'>For inquiries, please contact our coordinator <b>@Dakshin Srinivas M S</b> & <b>@Keerthana V</b>. </h1>
