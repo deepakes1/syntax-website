@@ -8,7 +8,7 @@ function Timer() {
     seconds: 0,
   });
 
-  const targetDate = new Date("November 8, 2024 00:00:00");
+  const targetDate = new Date("November 7, 2024, 21:00:00");
 
   useEffect(() => {
     const intervalId = setInterval(() => {
@@ -37,7 +37,7 @@ function Timer() {
         <p>EXPIRED</p>
       ) : null}
       
-      <h1 className='text-3xl font-semibold text-center mb-4'>Registration Closes in </h1>
+      <h1 className='text-3xl font-semibold text-center mb-4'>2nd Day Registration Closes in </h1>
       <div className="flex flex-col items-center text-[#40377D] font-bold text-lg">
         <div className="flex">
         
