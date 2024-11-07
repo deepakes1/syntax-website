@@ -71,14 +71,16 @@ function Coding() {
         </div>
 
         <div className="text-center mt-5">
-          <a 
+          {/* <a 
             href="https://docs.google.com/forms/d/1VswbdMvzfy4bYi6ecAifJhYn9KNIq-fS9_QnY6Ky6As/edit" 
             target='_blank' 
             rel="noopener noreferrer" 
             className='bg-black text-lg text-white px-4 py-2 transition-all pulse'
           >
             Register Now!
-          </a>
+          </a> */}
+           <marquee className= "bg-red-600  text-white text-2xl">Registration closed </marquee>
+
         </div>
         
         <div className="mt-5">

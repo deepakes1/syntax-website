@@ -33,31 +33,29 @@ function Timer() {
   return (
     <div>
       
-      {countdown.days < 0 && countdown.hours < 0 && countdown.minutes < 0 && countdown.seconds < 0 ? (
-        <p>EXPIRED</p>
-      ) : null}
       
-      <h1 className='text-3xl font-semibold text-center mb-4'>2nd Day Registration Closes in </h1>
+      
+      <h1 className='text-3xl font-semibold text-center mb-4'>Registration EXPIRED </h1>
       <div className="flex flex-col items-center text-[#40377D] font-bold text-lg">
         <div className="flex">
         
         <div  className="  border-black text-center w-[100px] p-5 border-b-2 border-r-2">
-          <h1 className='text-4xl'>{countdown.days}</h1>
+          <h1 className='text-4xl'>0</h1>
           <p>Days</p>
         </div>
         <div className=" border-black text-center w-[100px] p-5 border-b-2 ">
-          <h1 className='text-4xl'>{countdown.hours}</h1>
+          <h1 className='text-4xl'>0</h1>
           <p>Hours</p>
         </div>
       </div>
       <div className="flex">
         
         <div className="border-black w-[100px] text-center p-5  border-r-2 ">
-          <h1 className='text-4xl'>{countdown.minutes}</h1>
+          <h1 className='text-4xl'>0</h1>
           <p>Minutes</p>
         </div>
         <div className="p-5 text-center w-[100px]">
-          <h1 className='text-4xl'>{countdown.seconds}</h1>
+          <h1 className='text-4xl'>0</h1>
           <p >Seconds</p>
         </div>
 

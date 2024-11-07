@@ -58,7 +58,8 @@ function MarbleShowDown() {
             
             </div>
             <div className="text-center mt-5">
-                <a href="https://docs.google.com/forms/d/1WgFZptWxEJ0ela4T8e1kn_v6XBxLsGEdmfOrOZ1mtgQ/edit" target='_blank' className='bg-black text-lg text-white px-4 py-2 transition-all hover:rounded-xl'>Register Now!</a>
+                {/* <a href="https://docs.google.com/forms/d/1WgFZptWxEJ0ela4T8e1kn_v6XBxLsGEdmfOrOZ1mtgQ/edit" target='_blank' className='bg-black text-lg text-white px-4 py-2 transition-all hover:rounded-xl'>Register Now!</a> */}
+ <marquee className= "bg-red-600  text-white text-2xl">Registration closed </marquee>
 
             </div>
             <div className="mt-5">
